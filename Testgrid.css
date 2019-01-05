@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+}
+
+/* Style the header */
+header {
+    background-color: #49274a;
+    padding: 0.5px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Josefin Sans', serif
+}
+.headerGrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr;
+}
+.HomeButtons{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+main{
+    height: 50vmax;
+}
+
+
+.navArt {
+    float: left;
+    width: 20%;
+    height: 100%; /* only for demonstration, should be removed */
+    background: #94618e;
+    padding: 20px;
+    font-family: 'Josefin Sans', serif
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.articleArt {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+    background-color: #f4decb;
+     /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif
+}
+
+/*main:after {
+    content: "";
+    display: table;
+    clear: both;
+} Clear floats after the columns */
+
+
+/* Style the footer */
+footer {
+    background-color: #49274a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', serif
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article, main {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.button {
+    text-align: center;
+    border: none;
+    background-color: #f4decb;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', serif
+}
+
+.button1 {
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+
+.button2 {
+    padding: 10px 50px;
+}
+
+.button3 {
+    padding: 10px 50px;
+}
+
+.button4 {
+    padding: 10px 50px;
+}
+
+.button5 {
+    padding: 10px 50px;
+}
+
+.button6 {
+
+    color: #f4decb;
+    background-color: #49274a;
+}
+
+.button7 {
+    color: #f4decb;
+    background-color: #49274a;
+}
+
+.button8 {
+    padding: 10px 50px;
+}
+
+.side {
+    background-color: #f4decb;
+    width: 90%;
+
+}
+
+
+
+form{
+    top: 20px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    box-sizing: padding-box;
+    position: absolute;
+    padding: 10px 10px;
+}
+.video1 {
+    display: grid;
+    grid-template-columns: repeat(4, 320px);
+    grid-template-rows: repeat(4, 210px);
+}
+.pic{
+    margin: 10px;
+}
+
+.player{
+    margin-right: 20px;
+}
+
+#hc{
+    color: #f4decb;
+}
+
+.profil {
+    font-size: x-large;
+}
+.forumLines{
+    display: grid;
+}
+.forumLines > div {
+    border: 2px solid #49274a;
+    border-radius: 5px;
+    background-color: #F2E0F7;
+    padding: 1em;
+    color: #94618e;
+}
+.pages{
+    padding-top: 30px;
+    text-align: center;
+}
+a{
+    color: #f4decb;
+}
+.textLogo{
+    position: sticky;
+    top:100%;
+
+}

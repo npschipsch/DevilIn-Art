@@ -5,13 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta charset="UTF-8" content="">
-    <title>Profile</title>
+    <title>own profile</title>
     <link rel="stylesheet" type="text/css" href="../Testgrid.css">
 </head>
+
 <body>
+
 <header>
     <div class="headerGrid">
-        <div><a href="../index.html"><svg><image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo" /> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
+        <div><a href="../index.html"><svg><image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo"></image> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
         </div>
         <div class ="HomeButtons">
             <div></div>
@@ -27,9 +29,23 @@
             <a href="../user/profile.html"><button class="button button7"><strong>Profile</strong></button></a> </div>
     </div>
 </header>
+
 <main>
+
     <nav class="navArt">
         <h2>Profile</h2>
+        <h3 class="h3 profil">
+            search user:
+            <label>
+                 <input maxlength="20" size="20" value="">
+            </label>
+            <input class="pbutton" type="submit" value="search">
+        </h3>
+        <a href="../tuts/tutorials.html"><button class="button userbutton"><h2></h2></button></a>
+
+    </nav>
+
+    <article class="articleArt">
         <h3 class="h3 profil">
             avatar: <br><br>
             <img src="../pics/avatar.jpg" alt="Selfhtml" style="height: 80px; width: 80px;" /> <br>
@@ -43,12 +59,28 @@
             <br> accepted commissions: Nav
             <br> uploaded content: None
         </h3>
+        <input type="submit" value="edit profile" class="pbutton">
 
-        <input type="submit" value="edit">
-    </nav>
-    <article class="articleArt">
+        <br><br>
+        <h2>your uploads:</h2>
+        <input type="submit" value="new upload" class="pbutton">
+        <br><br>
+        <div style="display: table; width: 100%;">
+            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                <img src="../pics/pica.jpg" alt="Selfhtml" style="height: 120px; width: 180px;" />
+                <figcaption>PicA</figcaption>
+            </figure>
+            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                <img src="../pics/picb.jpg" alt="Selfhtml" style="height: 120px; width: 180px;" />
+                <figcaption>PicB</figcaption>
+            </figure>
+            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                <img src="../pics/picc.jpg" alt="Selfhtml" style="height: 120px; width: 180px;" />
+                <figcaption>PicC</figcaption>
+            </figure>
+        </div>
 
-        </article>
+    </article>
 </main>
 
 <footer>

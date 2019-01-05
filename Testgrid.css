@@ -10,7 +10,7 @@ body {
 /* Style the header */
 header {
     background-color: #49274a;
-    padding: 0.5px;
+    padding:20px;
     text-align: center;
     font-size: 35px;
     color: white;
@@ -25,10 +25,20 @@ header {
     grid-template-rows: 2fr 1fr;
 }
 
+.home{
+    margin-right: 200px;
+}
+
 main{
     height: 50vmax;
 }
 
+nav {
+    float: left;
+    width: 20%;
+    height:100em;
+    background: #94618e;
+}
 
 .navArt {
     float: left;
@@ -45,6 +55,13 @@ nav ul {
     padding: 0;
 }
 
+article {
+    float: left;
+    width: 100%;
+    height: 80em;
+    background-color: #f4decb;
+    font-family: 'Josefin Sans', serif
+}
 
 .articleArt {
     float: left;
@@ -93,6 +110,12 @@ footer {
     font-family: 'Josefin Sans', serif
 }
 
+.userbutton{
+    background-color: #94618e;
+
+
+}
+
 .button1 {
     padding: 10px 50px;
     margin-left: 20px;
@@ -132,6 +155,8 @@ footer {
 .side {
     background-color: #f4decb;
     width: 90%;
+}
+.pbutton{
 
 }
 
@@ -187,6 +212,10 @@ iframe{
 }
 a{
     color: #f4decb;
+}
+
+.homelink{
+    color:black;
 }
 .textLogo{
     position: sticky;

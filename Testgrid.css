@@ -3,22 +3,21 @@
 }
 
 body {
-    display: block;
     font-family: Arial, Helvetica, sans-serif;
-    height:100%;
-}
-html{
     height: 100%;
+    width: 100%;
 }
+
 /* Style the header */
 header {
+    display: grid;
     background-color: #49274a;
     padding:20px;
     text-align: center;
     font-size: 35px;
-    color: white;
     font-family: 'Josefin Sans', serif;
     width:100%;
+    height: 20%;
 }
 .headerGrid{
     display: grid;
@@ -29,98 +28,64 @@ header {
     grid-template-rows: 2fr 1fr;
 }
 
-.home{
-    margin-right: 200px;
+main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+
 }
 
-main{
-    width:100%;
-    height: 80%;
+div{
     display: block;
-
 }
 
 nav {
-    float: left;
-    width: 20%;
-    height: 100%;
+    height:100%;
     background: #94618e;
-}
-
-.navArt {
-    float: left;
-    width: 20%;
-      /* only for demonstration, should be removed */
+    width: 100%;
     background: #94618e;
     padding: 20px;
-    font-family: 'Josefin Sans', serif
+    font-family: 'Josefin Sans', serif;
 }
 
-.navArt2 {
-    float: left;
-    width: 20%;
-    height: 130%;/* only for demonstration, should be removed */
-    background: #94618e;
-    padding: 20px;
-    font-family: 'Josefin Sans', serif
-}
+
 
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
 }
 
-article {
-    float: left;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background-color: #f4decb;
-    font-family: 'Josefin Sans', serif;
-}
 .button:hover{
     background-color: #94618e;
 }
 .articleArt {
-    float: left;
     padding: 20px;
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: 80em;
     background-color: #f4decb;
      /* only for demonstration, should be removed */
     font-family: 'Josefin Sans', serif;
 }
-
-.articleArt2 {
-    float: left;
+.articleArt2{
     padding: 20px;
-    width: 80%;
-    height: 130%;
+    width: 100%;
+    height: 100%;
     background-color: #f4decb;
     /* only for demonstration, should be removed */
     font-family: 'Josefin Sans', serif;
 }
 
-/*main:after {
-    content: "";
-    display: table;
-    clear: both;
-} Clear floats after the columns */
-
-
-/* Style the footer */
 footer {
-    background-color: #49274a;
-    padding: 20px;
+    height: 40px;
+    width: 100%;
     text-align: center;
-    color: white;
-    font-family: 'Josefin Sans', serif
+    background-color: #49274a;
+    font-family: 'Josefin Sans', serif;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-    nav, main {
+@media (max-width: 1200px) {
+     main, .articleArt {
         width: 100%;
         height: 100%;
     }
@@ -185,9 +150,6 @@ footer {
     background-color: #f4decb;
     width: 90%;
 }
-.pbutton{
-
-}
 
 
 
@@ -204,12 +166,14 @@ iframe{
     box-sizing: padding-box;
     position: absolute;
     padding: 10px 10px;
+
 }
 .video1 {
     display: grid;
     grid-template-columns: repeat(4, 320px);
     grid-template-rows: repeat(2, 210px);
     position: center;
+
 }
 .pic{
     margin: 10px;
@@ -219,9 +183,6 @@ iframe{
     margin-right: 20px;
 }
 
-#hc{
-    color: #f4decb;
-}
 
 .profil {
     font-size: x-large;
@@ -239,6 +200,7 @@ iframe{
 .pages{
     padding-top: 30px;
     text-align: center;
+    bottom: 10px;
 }
 a{
     color: #f4decb;
@@ -248,6 +210,7 @@ a{
     color:black;
 }
 .textLogo{
+    display: block;
     position: sticky;
     top:100%;
 
@@ -257,7 +220,3 @@ a{
     top:20%;
     text-align: center;
 }
-img{
-    position: relative;
-}
-

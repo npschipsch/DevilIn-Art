@@ -41,11 +41,12 @@
         </ul>
     </nav>
 
-    <div class="articleArt">
-        <div>
+    <article class="articleArt">
         <h2>Handcrafting</h2>
         <div id="search">
-            Search:
+            Search:<label>
+            <input maxlength="12" size="15">
+            </label>
             Sort by:
             <label>
                 <select name="reise" size="1">
@@ -61,31 +62,26 @@
             <input type="checkbox" checked="checked">
         </label>
         save for work
-        </div>
+        <br><br>
 
-        <div style="display: table; width: 100%;">
-            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                <img src="../pics/handa.jpg" alt="Selfhtml" style="height: 120px; width: 180px;" />
-                <figcaption>PicA</figcaption>
-            </figure>
-            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                <img src="../pics/handb.jpg" alt="Selfhtml" style="height: 120px; width: 120px;" />
-                <figcaption>PicB</figcaption>
-            </figure>
-            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                <img src="../pics/handc.jpg" alt="Selfhtml" style="height: 180px; width: 120px;" />
-                <figcaption>PicC</figcaption>
-            </figure>
-            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                <img src="../pics/handd.jpg" alt="Selfhtml" style="height: 180px; width: 120px;" />
-                <figcaption>PicC</figcaption>
-            </figure>
-            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                <img src="../pics/hande.jpg" alt="Selfhtml" style="height: 180px; width: 120px;" />
-                <figcaption>PicC</figcaption>
-            </figure>
+        <div class="row">
+            <div class="column" style="text-align: center;">
+                <a href="#" title="picA , UserB" alt=""><img src="../pics/hande.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picB , UserB" alt=""><img src="../pics/handb.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picC , UserB" alt=""><img src="../pics/handc.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picD , UserB" alt=""><img src="../pics/handd.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picE , UserB" alt=""><img src="../pics/hand3.jpg" style="width:18%" alt=""></a>
+            </div>
+
+            <div class="column" style="text-align: center;">
+                <a href="#" title="picA , UserA" alt=""><img src="../pics/hand1.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picB , UserA" alt=""><img src="../pics/hand2.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picC , UserA" alt=""><img src="../pics/handa.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picD , UserA" alt=""><img src="../pics/hand4.jpg" style="width:18%" alt=""></a>
+                <a href="#" title="picE , UserA" alt=""><img src="../pics/hand5.jpg" style="width:18%" alt=""></a>
+            </div>
         </div>
-    </div>
+    </article>
 </main>
 
 <footer>

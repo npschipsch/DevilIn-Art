@@ -37,8 +37,35 @@
         </ul>
         <div class="textLogo"><img src="../pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/></div>
     </nav>
-    <div class="articleArt">
+
+    <nav class="articleArt">
     <h1>Offer & Search</h1>
+        <h3>Top Sellers</h3>
+
+        <XML id="meineNchr" src="nachricht01_17.xml"/>
+
+        <TABLE class="table" border="6" width="100%"
+               datasrc="#meineNchr" summary="Nachrichten">
+            <THEAD style="background-color: #94618e">
+            <TH >User</TH>
+            <TH>Category</TH>
+            <TH>Material</TH>
+            <TH>Price</TH>
+            <TH>Deadline</TH>
+            </THEAD>
+            <TR valign="top" align="center">
+                <TD><SPAN datafld="artist"></SPAN><a style="color: #49274a" href="#"><p>ZeenChin</p><p>PeteMohrbavher</p><p>RHADIS</p><p>ArthurBlue</p><p>arcipello</p></a></TD>
+                <TD><SPAN datafld="price"></SPAN><p>Drawing</p><p>Drawing</p><p>Drawing</p><p>Animation</p><p>Sculpture</p></TD>
+                <TD><SPAN datafld="price"></SPAN><p>Coloured Pencils</p><p>Coloured Pencils</p><p>Watercolors</p><p>-</p><p>Acrylics</p></TD>
+                <TD><SPAN datafld="price"></SPAN><p>25$</p><p>50$</p><p>30$</p><p>15$</p><p>250$</p></TD>
+                <TD><SPAN datafld="deadline"></SPAN><p>05.02.2019</p><p>12.02.2019</p><p>23.02.2019</p><p>28.02.2019</p><p>05.03.2019</p></TD>
+
+            </TR>
+        </TABLE></div>
+    </nav>
+
+
+
 <br>
         <div class="offerGrid">
         <div><a href="commissions.html"><h2>Commissions</h2><p>Here is a place for logged in users to offer commissions on a specific kind of artwork.</p></a></div></div>
@@ -46,7 +73,11 @@
 <div class="offerGrid">
         <div><a href="requests.html"><h2>Request</h2><p>Here is a place for logged in users to create a request for a specific kind of artwork.</p></a></div>
 </div>
-        </div>
+        </nav>
+
+
+
+
 
 </main>
 <div>

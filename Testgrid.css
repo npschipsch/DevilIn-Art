@@ -184,6 +184,8 @@ footer {
 .side {
     background-color: #f4decb;
     width: 90%;
+    color: black;
+    border: 2px solid #49274a;
 }
 .pbutton{
 

@@ -37,61 +37,120 @@
         </ul>
         <div class="textLogo"><img src="../pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/></div>
     </nav>
+
     <div class="articleArt"><h2>Requests</h2>
         <div  style="padding: 20px; display: grid; text-align: center;">
+            <h2>Find requests:</h2>
 
-            <div> <h2>Username: <label ><input style="color:#49274a;text-align: center;
-             width: 200px;height: 50px; font: 18px 'Josefin Sans';" name="logIn" maxlength="50" size="30"></label></h2>
+            <div> <h2>
+                Category:
+                <label>
+                    <select name="reise" size="1" style="width: 160px; height: 50px; font: 18px 'Josefin Sans';">
+                        <option>Drawing</option>
+                        <option>Animation</option>
+                        <option>Sculpture</option>
+                        <option>Music</option>
+                    </select>
+                </label>
+                Materials:
+                <label>
+                    <select style="width: 160px; height: 50px; font: 18px 'Josefin Sans';" name="reise" size="1">
+                        <option>-</option>
+                        <option>Coloured Pencils</option>
+                        <option>Pastels</option>
+                        <option>Watercolors</option>
+                        <option>Acrylics</option>
+                        <option>Plastic</option>
+                        <option>Wood</option>
+                    </select>
+                </label></h2></div>
+            <div>
 
-            </div>
-            <div>
-                <h2>Category:
-                    <label>
-                        <select name="reise" size="1" style="width: 200px;height: 50px; font: 18px 'Josefin Sans';">
-                            <option>Drawing</option>
-                            <option>Animation</option>
-                            <option>Sculpture</option>
-                            <option>music</option>
-                        </select>
-                    </label></h2></div>
-            <div>
-
-                <h2>Free slots:
-                    <label><input style="color:#49274a;text-align: center; width: 200px;height: 50px; font: 18px 'Josefin Sans';" name="logIn" maxlength="12" size="15"></label>
-                    <br><br>
-                    Deadline : <label><input style="color:#49274a;text-align: center; width: 200px;height: 50px; font: 18px 'Josefin Sans';"  name="logIn" maxlength="12" size="15"></label>
-                </h2>
-            </div>
-            <div>
-                <h2>Materials:
-                    <label>
-                        <select style="width: 200px;height: 50px; font: 18px 'Josefin Sans';" name="reise" size="1">
-                            <option>Acrylics</option>
-                            <option>Coloured Pencils</option>
-                            <option>Pastels</option>
-                            <option>Watercolors</option>
-                        </select>
-                    </label></h2> </div>
-
-            <div>
-                <h2>Price:
+                <h2>Deadline : <label><input style="color:#49274a;text-align: center; width: 200px;height: 50px; font: 18px 'Josefin Sans';"  name="logIn" maxlength="12" size="15"></label>
+                    Price:
                     <label>
                         <label>$ <input style="color:#49274a;text-align: center; width: 50px;height: 50px; font: 18px 'Josefin Sans';" name="logIn" maxlength="12" size="15"> to $
                             <input style="color:#49274a;text-align: center; width: 50px;height: 50px; font: 18px 'Josefin Sans';" name="logIn" maxlength="12" size="15"></label>
 
-                    </label></h2></div>
-            <div> </div>
-            <div><br></div><a href="../index.html"><div><input style=" width:300px;
-            height: 50px;border-color: #49274a; background-color: #F2E0F7;font: 20px 'Josefin Sans';" type="submit" value="Request"></div></a>
+                    </label>
+                </h2>
+            </div>
+            <div>
+                <a href="../index.html"><div><input style=" width:300px;
+            height: 50px;border-color: #49274a; background-color: #F2E0F7; font: 20px 'Josefin Sans';" type="submit" value="Find"></div></a>
+            </div>
+            <br><br><br>
+
+            <h2>Create request:</h2>
+
+            <div> <h2>
+                Category:
+                <label>
+                    <select name="reise" size="1" style="width: 160px; height: 50px; font: 18px 'Josefin Sans';">
+                        <option>Drawing</option>
+                        <option>Animation</option>
+                        <option>Sculpture</option>
+                        <option>Music</option>
+                    </select>
+                </label>
+                Materials:
+                <label>
+                    <select style="width: 160px; height: 50px; font: 18px 'Josefin Sans';" name="reise" size="1">
+                        <option>-</option>
+                        <option>Coloured Pencils</option>
+                        <option>Pastels</option>
+                        <option>Watercolors</option>
+                        <option>Acrylics</option>
+                        <option>Plastic</option>
+                        <option>Wood</option>
+                    </select>
+                </label></h2></div>
+            <div>
+
+                <h2>Deadline : <label><input style="color:#49274a;text-align: center; width: 200px;height: 50px; font: 18px 'Josefin Sans';"  name="logIn" maxlength="12" size="15"></label>
+                    Price:
+                    <label>$ <input style="color:#49274a;text-align: center; width: 150px;height: 50px; font: 18px 'Josefin Sans';" name="logIn" maxlength="12" size="15">
+                    </label>
+                </h2>
+                <h2>
+                    More information: <label>
+                    <textarea rows="6" cols="50"></textarea>
+                </label>
+                </h2>
+            </div>
+            <div>
+                <a href="../index.html"><div><input style=" width:300px;
+            height: 50px;border-color: #49274a; background-color: #F2E0F7; font: 20px 'Josefin Sans';" type="submit" value="Offer"></div></a>
+            </div>
+            <br>
+            <h3>New requests</h3>
+
+            <TABLE class="table" border="6" width="100%"
+                   datasrc="#meineNchr" summary="Nachrichten">
+                <THEAD style="background-color: #94618e">
+                <TH >User</TH>
+                <TH>Category</TH>
+                <TH>Material</TH>
+                <TH>Price</TH>
+                <TH>Deadline</TH>
+                </THEAD>
+                <TR valign="top" align="center">
+                    <TD><SPAN datafld="artist"></SPAN><a style="color: #49274a" href="#"><p>ZeenChin</p><p>PeteMohrbavher</p><p>RHADIS</p><p>ArthurBlue</p><p>arcipello</p></a></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>Drawing</p><p>Drawing</p><p>Drawing</p><p>Animation</p><p>Sculpture</p></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>Coloured Pencils</p><p>Coloured Pencils</p><p>Watercolors</p><p>-</p><p>Acrylics</p></TD>
+                    <TD><SPAN datafld="price"></SPAN><p>25$</p><p>50$</p><p>30$</p><p>15$</p><p>250$</p></TD>
+                    <TD><SPAN datafld="deadline"></SPAN><p>05.02.2019</p><p>12.02.2019</p><p>23.02.2019</p><p>28.02.2019</p><p>05.03.2019</p></TD>
+
+                </TR>
+            </TABLE>
         </div>
     </div>
 </main>
-
-<footer>
-    <div>
-        <a href="../contact.html">Contact</a>
-        <a href="../imprint.html">Imprint</a>
-    </div>
-</footer>
+    <footer>
+        <div>
+            <a href="../contact.html">Contact</a>
+            <a href="../imprint.html">Imprint</a>
+        </div>
+    </footer>
 </div></body>
 </html>

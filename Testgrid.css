@@ -128,7 +128,9 @@ nav ul {
     min-height: 20px;
     color: black;
 }
-
+.button:hover{
+    background-color: #94618e;
+}
 .side {
     background-color: #f4decb;
     width: 90%;

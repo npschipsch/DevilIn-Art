@@ -7,28 +7,32 @@
         font-size: 16px;
     }
 }
+
 *, body, button, html, input, select, textarea {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 body {
     overflow: hidden;
     display: block;
-}
-html{
-    display: block;
-}
-html::-webkit-scrollbar {
-    width: 30px;
-    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
 }
 
 html {
+    display: block;
     --maxWidth: 1284px;
     --minWidth: 1000px;
     overflow-x: hidden;
     scroll-behavior: smooth;
 
+}
+
+html::-webkit-scrollbar {
+    width: 30px;
+    height: 30px;
 }
 
 .articleArt {
@@ -40,7 +44,12 @@ html {
     /* only for demonstration, should be removed */
     font-family: 'Josefin Sans', serif;
 }
-.articleArt2{
+
+.left {
+    text-align: left;
+}
+
+.articleArt2 {
     padding: 20px;
     width: 100%;
     height: 100%;
@@ -48,12 +57,6 @@ html {
     background-color: #f4decb;
     /* only for demonstration, should be removed */
     font-family: 'Josefin Sans', serif;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    width: 100%;
 }
 
 header {
@@ -109,6 +112,7 @@ nav ul {
     grid-template-rows: 2fr 1fr;
 
 }
+
 .container {
     display: flex;
     flex-flow: row wrap;
@@ -129,9 +133,11 @@ nav ul {
     min-height: 20px;
     color: black;
 }
-.button:hover{
+
+.button:hover {
     background-color: #94618e;
 }
+
 .side {
     background-color: #f4decb;
     width: 90%;
@@ -175,7 +181,6 @@ a {
     color: #f4decb;
 }
 
-
 form {
     top: 20px;
     left: 50%;
@@ -184,36 +189,40 @@ form {
     align-items: center;
     justify-content: center;
 }
-.textLogo{
+
+.textLogo {
     display: block;
     position: sticky;
-    top:100%;
+    top: 100%;
 
 }
-#steps{
+
+#steps {
     position: relative;
-    top:20%;
+    top: 20%;
     text-align: center;
 }
 
-.input{
+.input {
     font-size: 16px;
 }
-.pic{
+
+.pic {
     margin: 10px;
 }
 
-.player{
+.player {
     margin-right: 20px;
 }
-
 
 .profil {
     font-size: x-large;
 }
-.forumLines{
+
+.forumLines {
     display: grid;
 }
+
 .forumLines > div {
     border: 2px solid #49274a;
     border-radius: 5px;
@@ -221,11 +230,13 @@ form {
     padding: 1em;
     color: #94618e;
 }
-.pages{
+
+.pages {
     padding-top: 30px;
     text-align: center;
     bottom: 10px;
 }
-.buttons > a{
+
+.buttons > a {
     color: #49274a;
 }

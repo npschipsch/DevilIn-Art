@@ -18,6 +18,10 @@ main {
     background-color: #f4decb;
 }
 
+
+.left {
+    text-align: left;
+}
 header {
     display: grid;
     grid-template-columns: minmax(500px, 100%);
@@ -29,12 +33,14 @@ header {
     font-family: 'Josefin Sans', serif;
 }
 
+
 footer {
     display: grid;
     height: 30px;
     width: 100%;
     background-color: #49274a;
     text-align: center;
+
     font-family: 'Josefin Sans', serif;
 }
 .articleArt {
@@ -107,9 +113,11 @@ img{
     min-height: 20px;
     color: black;
 }
-.button:hover{
+
+.button:hover {
     background-color: #94618e;
 }
+
 .side {
     background-color: #f4decb;
     width: 90%;
@@ -153,7 +161,6 @@ a {
     color: #f4decb;
 }
 
-
 form {
     top: 20px;
     left: 50%;
@@ -162,36 +169,40 @@ form {
     align-items: center;
     justify-content: center;
 }
-.textLogo{
+
+.textLogo {
     display: block;
     position: sticky;
-    top:100%;
+    top: 100%;
 
 }
-#steps{
+
+#steps {
     position: relative;
-    top:20%;
+    top: 20%;
     text-align: center;
 }
 
-.input{
+.input {
     font-size: 16px;
 }
-.pic{
+
+.pic {
     margin: 10px;
 }
 
-.player{
+.player {
     margin-right: 20px;
 }
-
 
 .profil {
     font-size: x-large;
 }
-.forumLines{
+
+.forumLines {
     display: grid;
 }
+
 .forumLines > div {
     border: 2px solid #49274a;
     border-radius: 5px;
@@ -199,11 +210,13 @@ form {
     padding: 1em;
     color: #94618e;
 }
-.pages{
+
+.pages {
     padding-top: 30px;
     text-align: center;
     bottom: 10px;
 }
-.buttons > a{
+
+.buttons > a {
     color: #49274a;
 }

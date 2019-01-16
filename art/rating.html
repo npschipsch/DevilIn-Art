@@ -12,82 +12,114 @@
 
 <body>
 <div>
-<header>
-    <div class="headerGrid">
-        <div><a href="../index.html"><svg><image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo"></image> <text x="85" y="120" fill="#f8eee7">DevelIn Art</text></svg></a>
-        </div>
-        <div class ="HomeButtons">
-            <div></div>
-            <div><a href="art.html"><button class="button button1">Art</button></a>
-                <a href="../tuts/tutorials.html"><button class="button button2">Tutorials</button></a>
-                <a href="../os/offer&search.html"><button class="button button3">Offer & Search</button></a>
-                <a href="../forum.html"><button class="button button4">Forum</button></a>
-                <a href="../store.html"><button class="button button5">Store</button></a>
+    <header>
+        <div class="headerGrid">
+            <div><a href="../index.html">
+                <svg>
+                    <image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo"></image>
+                    <text x="85" y="120" fill="#f8eee7">DevelIn Art</text>
+                </svg>
+            </a>
             </div>
+            <div class="HomeButtons">
+                <div></div>
+                <div><a href="art.html">
+                    <button class="button button1">Art</button>
+                </a>
+                    <a href="../tuts/tutorials.html">
+                        <button class="button button2">Tutorials</button>
+                    </a>
+                    <a href="../os/offer&search.html">
+                        <button class="button button3">Offer & Search</button>
+                    </a>
+                    <a href="../forum.html">
+                        <button class="button button4">Forum</button>
+                    </a>
+                    <a href="../store.html">
+                        <button class="button button5">Store</button>
+                    </a>
+                </div>
 
+            </div>
+            <div><a href="../user/login.html">
+                <button class="button button6"><strong>Login</strong></button>
+            </a>
+                <a href="../user/profile.html">
+                    <button class="button button7"><strong>Profile</strong></button>
+                </a></div>
         </div>
-        <div><a href="../user/login.html"><button class="button button6"><strong>Login</strong></button></a>
-            <a href="../user/profile.html"><button class="button button7"><strong>Profile</strong></button></a> </div>
-    </div>
-</header>
+    </header>
 
-<main>
-    <div>
-    <nav class="navArt">
-        <h2>Art</h2>
-        <ul>
-            <li><a  href="pictures&animations.html"><button class="button side">Pictures/Animations</button></a></li>
-            <li><a  href="handcrafting.html"><button class="button side">Handcrafting</button></a></li>
-            <li><a  href="music.html"><button class="button side">Music</button></a></li>
-            <li><a  href="rating.html"><button class="button side">Rating</button></a></li>
-        </ul>
-        <div class="textLogo"><img src="../pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/></div>
-    </nav>
-    </div>
-
-    <div class="articleArt">
-        <h2>Rating</h2>
-        <div id="rate">
-            <form action="">
-                <h2>Choose  your Category:</h2><br><br>
-                <div>
-                    <label>
-                        <select name="reise" size="1">
-                            <option>pictures/animations</option>
-                            <option>handcrafting</option>
-                            <option>music</option>
-                        </select>
-                    </label>
-                    <input type="submit" value="rate"><br><br>
+    <main>
+        <div>
+            <nav class="navArt">
+                <h2>Art</h2>
+                <ul>
+                    <li><a href="pictures&animations.html">
+                        <button class="button side">Pictures/Animations</button>
+                    </a></li>
+                    <li><a href="handcrafting.html">
+                        <button class="button side">Handcrafting</button>
+                    </a></li>
+                    <li><a href="music.html">
+                        <button class="button side">Music</button>
+                    </a></li>
+                    <li><a href="rating.html">
+                        <button class="button side">Rating</button>
+                    </a></li>
+                </ul>
+                <div class="textLogo"><img src="../pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/>
                 </div>
-
-                <div>
-                    <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                    <input class="input" type="submit" value="<">
-                    </figure>
-                    <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                        <img src="../pics/picb.jpg" alt="Selfhtml" style="height: 500px; width: 750px;" />
-                        <figcaption>PicB, UserA</figcaption>
-                    </figure>
-                    <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                        <input class="input" type="submit" value=">">
-                    </figure>
-                    <br>
-                </div>
-                <div>
-                    <input class="input" type="submit" title="Save for Work" value="SFW"><input class="input" type="submit" title="Not save for Work" value="NSFW">
-                </div>
-            </form>
+            </nav>
         </div>
-    </div>
-</main>
 
-<footer>
-    <div>
-        <a href="../contact.html">Contact</a>
-        <a href="../imprint.html">Imprint</a>
-    </div>
-</footer>
+        <div class="articleArt">
+            <h2>Rating</h2>
+            <div id="rate">
+                <form action="">
+                    <h2>Choose your Category:</h2><br><br>
+                    <div>
+                        <label>
+                            <select name="reise" size="1">
+                                <option>pictures/animations</option>
+                                <option>handcrafting</option>
+                                <option>music</option>
+                            </select>
+                        </label>
+                        <input type="submit" value="rate"><br><br>
+                    </div>
 
-</div></body>
+                    <div>
+                        <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                            <input class="input" type="submit" value="<">
+                        </figure>
+                        <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                            <img src="../pics/picb.jpg" alt="userUpload" style="height: 500px; width: 750px;"/>
+                            <figcaption>PicB, UserA</figcaption>
+                        </figure>
+                        <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+                            <input class="input" type="submit" value=">">
+                        </figure>
+                        <br>
+                    </div>
+                    <div>
+                        <input class="input" type="submit" title="Save for Work" value="SFW"><input class="input"
+                                                                                                    type="submit"
+                                                                                                    title="Not save for Work"
+                                                                                                    value="NSFW">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="../contact.html">Contact</a>
+            <a href="../imprint.html">Imprint</a>
+        </div>
+    </footer>
+
+</div>
+</body>
 </html>

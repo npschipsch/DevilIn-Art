@@ -2,62 +2,25 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 1200px) {
-    html {
-        font-size: 16px;
-    }
-}
-*, body, button, html, input, select, textarea {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 body {
-    overflow: hidden;
-    display: block;
-}
-html{
-    display: block;
-}
-html::-webkit-scrollbar {
-    width: 30px;
-    height: 30px;
-}
-
-html {
-    --maxWidth: 1284px;
-    --minWidth: 1000px;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-
-}
-
-.articleArt {
-    padding: 40px;
-    text-align: center;
-    width: 100%;
-    height: 80em;
-    background-color: #f4decb;
-    /* only for demonstration, should be removed */
-    font-family: 'Josefin Sans', serif;
-}
-.articleArt2{
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-    height: 80em;
-    background-color: #f4decb;
-    /* only for demonstration, should be removed */
-    font-family: 'Josefin Sans', serif;
-}
-
-body {
+    display: grid;
+    grid-template-columns: minmax(670px,100%);
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     width: 100%;
 }
+main {
+    display: grid;
+    grid-template-columns: minmax(170px, 20%) minmax(500px, 80%);
+    grid-template-rows: minmax(100em, 100%);
+    height: 100%;
+    width: 100%;
+    background-color: #f4decb;
+}
 
 header {
     display: grid;
+    grid-template-columns: minmax(500px, 100%);
     width: 100%;
     background-color: #49274a;
     padding: 20px;
@@ -66,23 +29,35 @@ header {
     font-family: 'Josefin Sans', serif;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    height: 100%;
-    width: 100%;
-    background-color: #f4decb;
-}
-
 footer {
     display: grid;
     height: 30px;
     width: 100%;
     background-color: #49274a;
     text-align: center;
-
     font-family: 'Josefin Sans', serif;
 }
+.articleArt {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f4decb;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+.articleArt2{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #f4decb;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+
+
+
+
 
 nav {
     padding: 20px;
@@ -101,7 +76,7 @@ nav ul {
 
 .headerGrid {
     display: grid;
-    grid-template-columns: 1fr 3fr 0.5fr;
+    grid-template-columns: minmax(100px, 1fr) minmax(200px, 3fr) 0.5fr;
 }
 
 .HomeButtons {
@@ -114,6 +89,9 @@ nav ul {
     flex-flow: row wrap;
     padding: 20px;
     font-family: 'Josefin Sans', serif;
+}
+img{
+    flex-shrink: 5;
 }
 
 .button {

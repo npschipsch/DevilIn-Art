@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+*, body, button, html, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
     display: grid;
     grid-template-columns: minmax(670px,100%);
@@ -16,8 +27,9 @@ main {
     height: 100%;
     width: 100%;
     background-color: #f4decb;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
 }
-
 
 .left {
     text-align: left;
@@ -33,6 +45,13 @@ header {
     font-family: 'Josefin Sans', serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+    width: 100%;
+    background-color: #f4decb;
+}
 
 footer {
     display: grid;
@@ -158,6 +177,11 @@ img{
 }
 
 a {
+    color: #f4decb;
+}
+
+.bread{
+    font-size: small;
     color: #f4decb;
 }
 

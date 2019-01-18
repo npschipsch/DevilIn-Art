@@ -99,6 +99,8 @@ nav ul {
     padding: 20px;
 }
 
+
+
 .headerGrid {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(200px, 3fr) 0.5fr;
@@ -125,7 +127,7 @@ img{
     background-color: #f4decb;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 3vmin;
     cursor: pointer;
     font-family: 'Josefin Sans', serif;
     min-width: 80px;
@@ -139,9 +141,10 @@ img{
 
 .side {
     background-color: #f4decb;
-    width: 90%;
+    width: 15vw;
     color: black;
     border: 2px solid #49274a;
+    font-size: 3vmin;
 }
 
 .button1 {
@@ -208,7 +211,7 @@ form {
 }
 
 .input {
-    font-size: 16px;
+    font-size: 2.5vmin;
 }
 
 .pic {
@@ -219,12 +222,9 @@ form {
     margin-right: 20px;
 }
 
-.profil {
-    font-size: x-large;
-}
-
 .forumLines {
     display: grid;
+    font-size: 2.5vmin;
 }
 
 .forumLines > div {
@@ -243,4 +243,20 @@ form {
 
 .buttons > a {
     color: #49274a;
+}
+
+h2{
+    font-size: 5vmin;
+}
+
+h3{
+    font-size: 3.5vmin;
+}
+
+.profil {
+    font-size: 5vmin;
+}
+
+.search{
+    font-size: 2.5vmin;
 }

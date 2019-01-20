@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+*, body, button, html, input, select, textarea {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    display: grid;
+    grid-template-columns: minmax(670px,100%);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+main {
+    display: grid;
+    grid-template-columns: minmax(170px, 20%) minmax(500px, 80%);
+    grid-template-rows: minmax(100em, 100%);
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+
+.left {
+    text-align: left;
+}
+header {
+    display: grid;
+    grid-template-columns: minmax(500px, 100%);
+    width: 100%;
+    background-color:darkgrey;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Josefin Sans', serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+footer {
+    display: grid;
+    height: 30px;
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+
+    font-family: 'Josefin Sans', serif;
+}
+.articleArt {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+.articleArt2{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* only for demonstration, should be removed */
+    font-family: 'Josefin Sans', serif;
+}
+
+
+
+
+
+nav {
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+
+    font-family: 'Josefin Sans', serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+
+.headerGrid {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) minmax(200px, 3fr) 0.5fr;
+}
+
+.HomeButtons {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    font-family: 'Josefin Sans', serif;
+}
+img{
+    flex-shrink: 5;
+}
+
+.button {
+    text-align: center;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vmin;
+    cursor: pointer;
+    font-family: 'Josefin Sans', serif;
+    min-width: 80px;
+    min-height: 20px;
+    color: black;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.side {
+    background-color: white;
+    width: 15vw;
+    color: black;
+    border: 2px solid darkgrey;
+    font-size: 3vmin;
+}
+
+.button1 {
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+
+.button2 {
+    padding: 10px 50px;
+}
+
+.button3 {
+    padding: 10px 50px;
+}
+
+.button4 {
+    padding: 10px 50px;
+}
+
+.button5 {
+    padding: 10px 50px;
+}
+
+.button6 {
+
+    color: lightgray;
+    background-color: darkgrey;
+}
+
+.button7 {
+    color: white;
+    background-color: darkgrey;
+}
+
+a {
+    color: white;
+}
+
+.bread{
+    font-size: small;
+    color: white;
+}
+
+form {
+    top: 20px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textLogo {
+    display: block;
+    position: sticky;
+    top: 100%;
+
+}
+
+#steps {
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+.input {
+    font-size: 2.5vmin;
+}
+
+.pic {
+    margin: 10px;
+}
+
+.player {
+    margin-right: 20px;
+}
+
+.forumLines {
+    display: grid;
+    font-size: 2.5vmin;
+}
+
+.forumLines > div {
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    background-color: #F2E0F7;
+    padding: 1em;
+    color: lightgray;
+}
+
+.pages {
+    padding-top: 30px;
+    text-align: center;
+    bottom: 10px;
+}
+
+.buttons > a {
+    color: darkgrey;
+}
+
+h2{
+    font-size: 5vmin;
+}
+
+h3{
+    font-size: 3.5vmin;
+}
+
+.profil {
+    font-size: 5vmin;
+}
+
+.search{
+    font-size: 2.5vmin;
+}

@@ -37,13 +37,6 @@ header {
     font-family: 'Josefin Sans', serif;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    height: 100%;
-    width: 100%;
-    background-color: #f4decb;
-}
 
 footer {
     display: grid;

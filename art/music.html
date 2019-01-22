@@ -12,14 +12,14 @@
 <div>
     <header>
         <div>
-            <a class="a bread" href="../index.html">Home</a>
+            <a tabindex="1" class="a bread" href="../index.html">Home</a>
             <text class="a bread"> ></text>
-            <a class="a bread" href="../art/art.html">Art</a>
+            <a tabindex="1" class="a bread" href="../art/art.html">Art</a>
             <text class="a bread"> ></text>
-            <a class="a bread" href="../art/music.html">Music</a>
+            <a tabindex="2" class="a bread" href="../art/music.html">Music</a>
         </div>
         <div class="headerGrid">
-            <div><a href="../index.html">
+            <div><a tabindex="3" href="../index.html">
                 <svg>
                     <image xlink:href="../pics/DevLogo.png" x="0" y="40" height="80px" width="80px" alt="Logo"></image>
                     <text x="85" y="120" fill="#f8eee7">DevelIn Art</text>
@@ -28,30 +28,32 @@
             </div>
             <div class="HomeButtons">
                 <div></div>
-                <div class="buttons"><a href="art.html">
-                    <button class="button button1">Art</button>
-                </a>
+                <div class="buttons">
+                    <a  href="../art/art.html">
+                        <button tabindex="4" class="button button1">Art</button>
+                    </a>
                     <a href="../tuts/tutorials.html">
-                        <button class="button button2">Tutorials</button>
+                        <button tabindex="5" class="button button2">Tutorials</button>
                     </a>
                     <a href="../os/offer&search.html">
-                        <button class="button button3">Offer & Search</button>
+                        <button tabindex="6" class="button button3">Offer & Search</button>
                     </a>
                     <a href="../forum.html">
-                        <button class="button button4">Forum</button>
+                        <button tabindex="7" class="button button4">Forum</button>
                     </a>
                     <a href="../store.html">
-                        <button class="button button5">Store</button>
+                        <button tabindex="8" class="button button5">Store</button>
                     </a>
                 </div>
-
             </div>
+
             <div class="buttons"><a href="../user/login.html">
-                <button class="button button6"><strong>Login</strong></button>
+                <button tabindex="9" class="button button6"><strong>Login</strong></button>
             </a>
                 <a href="../user/profile.html">
-                    <button class="button button7"><strong>Profile</strong></button>
-                </a></div>
+                    <button tabindex="10" class="button button7"><strong>Profile</strong></button>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -60,16 +62,16 @@
             <h2>Art</h2>
             <ul>
                 <li><a href="pictures&animations.html">
-                    <button class="button side">Pictures/Animations</button>
+                    <button tabindex="11" class="button side">Pictures/Animations</button>
                 </a></li>
                 <li><a href="handcrafting.html">
-                    <button class="button side">Handcrafting</button>
+                    <button tabindex="12" class="button side">Handcrafting</button>
                 </a></li>
                 <li><a href="music.html">
-                    <button class="button side">Music</button>
+                    <button tabindex="13" class="button side">Music</button>
                 </a></li>
                 <li><a href="rating.html">
-                    <button class="button side">Rating</button>
+                    <button tabindex="14" class="button side">Rating</button>
                 </a></li>
             </ul>
             <div class="textLogo"><img src="../pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/>
@@ -83,21 +85,21 @@
 
                     <div id="search">
                         Search: <label>
-                        <input class="input" name="logIn" maxlength="12" size="15">
+                        <input tabindex="15" class="input" name="logIn" maxlength="12" size="15">
                     </label>
                         Sort by:
                         <label>
-                            <select class="input" name="reise" size="1">
+                            <select tabindex="16" class="input" name="reise" size="1">
                                 <option>date</option>
                                 <option>name</option>
                                 <option>author</option>
                             </select>
                         </label>
-                        <input class="input" type="submit" value="Ok">
+                        <input tabindex="17" class="input" type="submit" value="Ok">
                     </div>
                     <br>
                     <label>
-                        <input type="checkbox" checked="checked">
+                        <input tabindex="18" type="checkbox" checked="checked">
                     </label>
                     save for work
                 </form>
@@ -107,7 +109,7 @@
                 <br>
                 <h3> Peace and Love , Karlo Wustermann</h3>
                 <h3>
-                    <audio class="player" controls alt="userUpload">
+                    <audio tabindex="19" class="player" controls alt="userUpload">
                         <source src="../music/Sleep%20Away.ogg" type="audio/ogg">
                         <source src="../music/Sleep%20Away.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
@@ -119,7 +121,7 @@
                 <br>
                 <h3> Kalimba , Karl Mustermann</h3>
                 <h3>
-                    <audio controls alt="userUpload">
+                    <audio tabindex="20" controls alt="userUpload">
                         <source src="../music/Kalimba.ogg" type="audio/ogg">
                         <source src="../music/Kalimba.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
@@ -131,7 +133,7 @@
                 <br>
                 <h3> Für Elise , Beethoven</h3>
                 <h3>
-                    <audio controls alt="userUpload">
+                    <audio tabindex="21" controls alt="userUpload">
                         <source src="../music/Fur%20Elise%20-%20Beethoven%20(YouTube%20Royalty-free%20Music%20Download).ogg"
                                 type="audio/ogg">
                         <source src="#" type="audio/mpeg">
@@ -145,7 +147,7 @@
                 <br>
                 <h3> Chopstick Waltz , Wristcutters</h3>
                 <h3>
-                    <audio controls alt="userUpload">
+                    <audio tabindex="22" controls alt="userUpload">
                         <source src="../music/Chopstick%20Waltz%20-%20Wristcutters%20Edition.ogg" type="audio/ogg">
                         <source src="#" type="audio/mpeg">
                         Your browser does not support the audio element.
@@ -154,14 +156,14 @@
                 </h3>
                 <div class="pages">
                     <a href="#">
-                        <button class="input">1</button>
-                        <button class="input">2</button>
-                        <button class="input">3</button>
-                        <button class="input">4</button>
+                        <button tabindex="23" class="input">1</button>
+                        <button tabindex="24" class="input">2</button>
+                        <button tabindex="25" class="input">3</button>
+                        <button tabindex="26" class="input">4</button>
                     </a> .....
                     <a href="#">
-                        <button class="input">10</button>
-                        <button class="input"> ></button>
+                        <button tabindex="27" class="input">10</button>
+                        <button tabindex="28" class="input"> ></button>
                     </a>
                 </div>
             </div>
@@ -170,8 +172,8 @@
 
     <footer>
         <div>
-            <a href="../contact.html">Contact</a>
-            <a href="../imprint.html">Imprint</a>
+            <a tabindex="29" href="../contact.html">Contact</a>
+            <a tabindex="30" href="../imprint.html">Imprint</a>
         </div>
     </footer>
 

@@ -49,11 +49,12 @@ footer {
 }
 
 .articleArt {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-color: #f4decb;
+    display: block;
     /* only for demonstration, should be removed */
     font-family: 'Josefin Sans', serif;
 }
@@ -94,6 +95,7 @@ nav ul {
     display: grid;
     grid-template-rows: 2fr 1fr;
 
+
 }
 
 .container {
@@ -113,7 +115,7 @@ img {
     background-color: #f4decb;
     text-decoration: none;
     display: inline-block;
-
+    font-size:large;
     cursor: pointer;
     font-family: 'Josefin Sans', serif;
     min-width: 100px;
@@ -131,7 +133,7 @@ img {
     width: 15vw;
     color: black;
     border: 2px solid #49274a;
-    font-size: medium;
+    font-size:large;
 }
 
 .button1 {
@@ -171,7 +173,7 @@ img {
 }
 
 .bread {
-    font-size: small;
+    font-size: large;
     color: #f4decb;
 }
 
@@ -211,7 +213,7 @@ form {
 
 .forumLines {
     display: grid;
-    font-size: 2.5vmin;
+    font-size: large;
 }
 
 .forumLines > div {
@@ -228,19 +230,25 @@ form {
     bottom: 10px;
 }
 
+.footer > a{
+    color: #f4decb;
+}
 
 h2 {
-    font-size: 5vmin;
+    font-size:large;
 }
 
 h3 {
-    font-size: 3.5vmin;
+    font-size:large;
 }
 
 .profil {
-    font-size: 5vmin;
+    font-size:large;
 }
 
 .search {
-    font-size: 2.5vmin;
+    font-size:large;
+}
+a{
+    font-size:large;
 }

@@ -252,3 +252,15 @@ h3 {
 a{
     font-size:large;
 }
+#table{
+    border: 2px double #49274a;
+    text-align: center;
+
+
+}
+#table > th,td,tr{
+    border: 1px solid #94618e;
+    padding-bottom: 10px;
+    padding: 10vm;
+    font-size: large;
+}

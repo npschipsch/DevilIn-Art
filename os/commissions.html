@@ -5,6 +5,7 @@
     <title>Commissions</title>
     <link rel="stylesheet" type="text/css" href="../Testgrid.css" title="standart">
     <link rel="stylesheet" type="text/css" href="../Testgrid2.css" title="monochrom">
+   <script src="../JS/xmlReader.js"></script>
 </head>
 <body>
 <div>
@@ -14,18 +15,18 @@
             <text class="a bread"> ></text>
             <a tabindex="1.5" class="a bread" href="../os/offer&search.html">Offer&Search</a>
             <text class="a bread"> ></text>
-            <a tabindex="2"class="a bread" href="../os/commissions.html">Commissions</a>
+            <a tabindex="2" class="a bread" href="../os/commissions.html">Commissions</a>
         </div>
         <div class="headerGrid">
             <div><a tabindex="3" href="../index.html">
                 <img src="../pics/LOGOvector.svg" width="80px" height="80px" alt="LOGO"/></a>
                 <img src="../pics/logoTextSVG2.svg" width="150px" height="40px" alt="LOGOTEXT"/>
-            </a>
+                </a>
             </div>
             <div class="HomeButtons">
                 <div></div>
                 <div class="buttons">
-                    <a  href="../art/art.html">
+                    <a href="../art/art.html">
                         <button tabindex="4" class="button button1">Art</button>
                     </a>
                     <a href="../tuts/tutorials.html">
@@ -98,7 +99,8 @@
                 </div>
                 <div>
 
-                    <h3>Deadline : <label><input tabindex="15" class="input" name="logIn" maxlength="12" size="15"></label>
+                    <h3>Deadline : <label><input tabindex="15" class="input" name="logIn" maxlength="12"
+                                                 size="15"></label>
                         Price:
                         <label>
                             <label>$ <input tabindex="16" class="input" name="logIn" maxlength="12" size="15"> to $
@@ -111,7 +113,7 @@
                 <div>
                     <a href="../index.html">
                         <div class="search"><input tabindex="17" class="input" type="submit"
-                                    value="Find"></div>
+                                                   value="Find"></div>
                     </a>
                 </div>
                 <br><br><br>
@@ -131,7 +133,7 @@
                         </label>
                         Materials:
                         <label>
-                            <select tabindex="19" class="input"  name="reise"
+                            <select tabindex="19" class="input" name="reise"
                                     size="1">
                                 <option>-</option>
                                 <option>Coloured Pencils</option>
@@ -145,7 +147,8 @@
                 </div>
                 <div>
 
-                    <h3>Deadline : <label><input tabindex="20" class="input" name="logIn" maxlength="12" size="15"></label>
+                    <h3>Deadline : <label><input tabindex="20" class="input" name="logIn" maxlength="12"
+                                                 size="15"></label>
                         Price:
                         <label>$ <input tabindex="21" class="input" name="logIn" maxlength="12" size="15">
                         </label>
@@ -161,51 +164,11 @@
                         <div><input tabindex="23" class="input" type="submit" value="Offer"></div>
                     </a>
                 </div>
-                <br><br><br>
+
                 <h2>New comissions:</h2>
-
-                <table class="input" border="6" width="100%" datasrc="#meineNchr" summary="Nachrichten">
-                    <thead style="background-color: #94618e">
-                    <th>User</th>
-                    <th>Category</th>
-                    <th>Material</th>
-                    <th>Price</th>
-                    <th>Deadline</th>
-                    </thead>
-                    <tr valign="top" align="center">
-                        <td><span datafld="artist"></span><a style="color: #49274a" href="#">
-                            <p tabindex="24">ZeenChin</p>
-                            <p tabindex="25">PeteMohrbavher</p>
-                            <p tabindex="26">RHADIS</p>
-                            <p tabindex="27">ArthurBlue</p>
-                            <p tabindex="28">arcipello</p></a></td>
-                        <td><span datafld="price"></span>
-                            <p>Drawing</p>
-                            <p>Drawing</p>
-                            <p>Drawing</p>
-                            <p>Animation</p>
-                            <p>Sculpture</p></td>
-                        <td><span datafld="price"></span>
-                            <p>Coloured Pencils</p>
-                            <p>Coloured Pencils</p>
-                            <p>Watercolors</p>
-                            <p>-</p>
-                            <p>Acrylics</p></td>
-                        <td><span datafld="price"></span>
-                            <p>25$</p>
-                            <p>50$</p>
-                            <p>30$</p>
-                            <p>15$</p>
-                            <p>250$</p></td>
-                        <td><span datafld="deadline"></span>
-                            <p>05.02.2019</p>
-                            <p>12.02.2019</p>
-                            <p>23.02.2019</p>
-                            <p>28.02.2019</p>
-                            <p>05.03.2019</p></td>
-
-                    </tr>
-                </table>
+                <div style="display: grid;">
+                    <table id="table"></table>
+                </div>
             </div>
         </div>
     </main>

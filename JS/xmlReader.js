@@ -31,4 +31,5 @@ function createXMLTable(xml) {
     }
 
     document.getElementById("table").innerHTML = table;
+    document.getElementById("table2").innerHTML = table;
 }

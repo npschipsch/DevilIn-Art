@@ -5,6 +5,7 @@
     <title>Requests</title>
     <link rel="stylesheet" type="text/css" href="../Testgrid.css" title="standart">
     <link rel="stylesheet" type="text/css" href="../Testgrid2.css" title="monochrom">
+    <script src="../JS/xmlReader.js"></script>
 </head>
 <body>
 <div>
@@ -20,7 +21,7 @@
             <div><a href="../index.html">
                 <img src="../pics/LOGOvector.svg" width="80px" height="80px" alt="LOGO"/></a>
                 <img src="../pics/logoTextSVG2.svg" width="150px" height="40px" alt="LOGOTEXT"/>
-            </a>
+                </a>
             </div>
             <div class="HomeButtons">
                 <div></div>
@@ -173,48 +174,10 @@
                 <br><br><br>
                 <h2>New requests:</h2>
 
-                <table class="input" border="6" width="100%"
-                       datasrc="#meineNchr" summary="Nachrichten">
-                    <thead style="background-color: #94618e">
-                    <th>User</th>
-                    <th>Category</th>
-                    <th>Material</th>
-                    <th>Price</th>
-                    <th>Deadline</th>
-                    </thead>
-                    <tr valign="top" align="center">
-                        <td><span datafld="artist"></SPAN><a style="color: #49274a" href="#"><p>ZeenChin</p>
-                            <p>PeteMohrbavher</p>
-                            <p>RHADIS</p>
-                            <p>ArthurBlue</p>
-                            <p>arcipello</p></a></td>
-                        <td><span datafld="price"></span>
-                            <p>Drawing</p>
-                            <p>Drawing</p>
-                            <p>Drawing</p>
-                            <p>Animation</p>
-                            <p>Sculpture</p></td>
-                        <td><span datafld="price"></span>
-                            <p>Coloured Pencils</p>
-                            <p>Coloured Pencils</p>
-                            <p>Watercolors</p>
-                            <p>-</p>
-                            <p>Acrylics</p></td>
-                        <td><span datafld="price"></span>
-                            <p>25$</p>
-                            <p>50$</p>
-                            <p>30$</p>
-                            <p>15$</p>
-                            <p>250$</p></td>
-                        <td><span datafld="deadline"></span>
-                            <p>05.02.2019</p>
-                            <p>12.02.2019</p>
-                            <p>23.02.2019</p>
-                            <p>28.02.2019</p>
-                            <p>05.03.2019</p></td>
+                <div style="display: grid;">
+                    <table id="table"></table>
+                </div>
 
-                    </tr>
-                </table>
             </div>
         </div>
     </main>

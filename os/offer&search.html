@@ -5,6 +5,7 @@
     <title>Offer & Search</title>
     <link rel="stylesheet" type="text/css" href="../Testgrid.css" title="standart">
     <link rel="stylesheet" type="text/css" href="../Testgrid2.css" title="monochrom">
+    <script src="../JS/xmlReader.js"></script>
 </head>
 <body>
 <div>
@@ -15,15 +16,15 @@
             <a tabindex="2" class="a bread" href="../os/offer&search.html">Offer&Search</a>
         </div>
         <div class="headerGrid">
-            <div ><a tabindex="3" href="../index.html">
+            <div><a tabindex="3" href="../index.html">
                 <img src="../pics/LOGOvector.svg" width="80px" height="80px" alt="LOGO"/></a>
                 <img src="../pics/logoTextSVG2.svg" width="150px" height="40px" alt="LOGOTEXT"/>
-            </a>
+                </a>
             </div>
             <div class="HomeButtons">
                 <div></div>
                 <div class="buttons">
-                    <a  href="../art/art.html">
+                    <a href="../art/art.html">
                         <button tabindex="4" class="button button1">Art</button>
                     </a>
                     <a href="../tuts/tutorials.html">
@@ -65,157 +66,20 @@
             </div>
         </nav>
 
-        <nav class="articleArt">
+        <div class="articleArt">
             <h2>Offer & Search</h2>
             <br>
-            <h3>New Comissions</h3>
+            <h3>New commissions</h3>
+            <div style="display: grid;">
+                <table id="table"></table>
+            </div>
 
-            <table class="input" border="6" width="100%"
-                   datasrc="#meineNchr" summary="Nachrichten">
-                <thead style="background-color: #94618e">
-                <th>User</th>
-                <th>Category</th>
-                <th>Material</th>
-                <th>Price</th>
-                <th>Deadline</th>
-                </thead>
-                <tr valign="top" align="center">
-                    <td><span datafld="artist"></span><a style="color: #49274a" href="#">
-                        <p tabindex="13">ZeenChin</p>
-                        <p tabindex="14">PeteMohrbavher</p>
-                        <p tabindex="15">RHADIS</p>
-                        <p tabindex="16">ArthurBlue</p>
-                        <p tabindex="17">arcipello</p>
-                        <p tabindex="18">PeterPlatte</p>
-                        <p tabindex="19">LeonardoWadinschi</p>
-                        <p tabindex="20">ArnoldKrampf</p>
-                        <p tabindex="21">DalvadorSali</p>
-                        <p tabindex="22">MarcoLopo</p></a></td>
-                    <td><span datafld="price"></span>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Animation</p>
-                        <p>Sculpture</p>
-                        <span datafld="price"></span>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Animation</p>
-                        <p>Sculpture</p></td>
-                    <td><span datafld="price"></span>
-                        <p>Coloured Pencils</p>
-                        <p>Coloured Pencils</p>
-                        <p>Watercolors</p>
-                        <p>-</p>
-                        <p>Acrylics</p>
-                        <span datafld="price"></span>
-                        <p>Coloured Pencils</p>
-                        <p>Coloured Pencils</p>
-                        <p>Watercolors</p>
-                        <p>-</p>
-                        <p>Acrylics</p></td>
-                    <td><span datafld="price"></span>
-                        <p>25$</p>
-                        <p>50$</p>
-                        <p>30$</p>
-                        <p>15$</p>
-                        <p>250$</p>
-                        <span datafld="price"></span>
-                        <p>25$</p>
-                        <p>50$</p>
-                        <p>30$</p>
-                        <p>15$</p>
-                        <p>250$</p></td>
-                    <td><span datafld="deadline"></span>
-                        <p>05.02.2019</p>
-                        <p>12.02.2019</p>
-                        <p>23.02.2019</p>
-                        <p>28.02.2019</p>
-                        <p>05.03.2019</p>
-                        <p>05.02.2019</p>
-                        <p>12.02.2019</p>
-                        <p>23.02.2019</p>
-                        <p>28.02.2019</p>
-                        <p>05.03.2019</p></td>
+            <h3>New requests</h3>
+            <div style="display: grid;">
+                <table id="table2"></table>
+            </div>
 
-                </tr>
-            </table>
-            <br><br><br><br>
-
-            <h3>New Requests</h3>
-
-            <table class="input" border="6" width="100%"
-                   datasrc="#meineNchr" summary="Nachrichten">
-                <thead style="background-color: #94618e">
-                <th>User</th>
-                <th>Category</th>
-                <th>Material</th>
-                <th>Price</th>
-                <th>Deadline</th>
-                </thead>
-                <tr valign="top" align="center">
-                    <td><span datafld="artist"></span><a style="color: #49274a" href="#">
-                        <p tabindex="23">PeterPlatte</p>
-                        <p tabindex="24">LeonardoWadinschi</p>
-                        <p tabindex="25">ArnoldKrampf</p>
-                        <p tabindex="26">DalvadorSali</p>
-                        <p tabindex="27">MarcoLopo</p>
-                        <p tabindex="28">ZeenChin</p>
-                        <p tabindex="29">PeteMohrbavher</p>
-                        <p tabindex="30">RHADIS</p>
-                        <p tabindex="31">ArthurBlue</p>
-                        <p tabindex="32">arcipello</p></a></td>
-                    <td><span datafld="price"></SPAN>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Animation</p>
-                        <p>Sculpture</p>
-                        <span datafld="price"></span>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Drawing</p>
-                        <p>Animation</p>
-                        <p>Sculpture</p></td>
-                    <td><span datafld="price"></span>
-                        <p>Coloured Pencils</p>
-                        <p>Coloured Pencils</p>
-                        <p>Watercolors</p>
-                        <p>-</p>
-                        <p>Acrylics</p>
-                        <SPAN datafld="price"></SPAN>
-                        <p>Coloured Pencils</p>
-                        <p>Coloured Pencils</p>
-                        <p>Watercolors</p>
-                        <p>-</p>
-                        <p>Acrylics</p></td>
-                    <td><span datafld="price"></span>
-                        <p>25$</p>
-                        <p>50$</p>
-                        <p>30$</p>
-                        <p>15$</p>
-                        <p>250$</p>
-                        <SPAN datafld="price"></SPAN>
-                        <p>25$</p>
-                        <p>50$</p>
-                        <p>30$</p>
-                        <p>15$</p>
-                        <p>250$</p></td>
-                    <td><span datafld="deadline"></span>
-                        <p>05.02.2019</p>
-                        <p>12.02.2019</p>
-                        <p>23.02.2019</p>
-                        <p>28.02.2019</p>
-                        <p>05.03.2019</p>
-                        <p>05.02.2019</p>
-                        <p>12.02.2019</p>
-                        <p>23.02.2019</p>
-                        <p>28.02.2019</p>
-                        <p>05.03.2019</p></td>
-                </tr>
-            </table>
-        </nav>
+        </div>
     </main>
     <div>
         <footer>

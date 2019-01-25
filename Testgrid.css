@@ -85,7 +85,6 @@ nav ul {
 }
 
 
-
 .headerGrid {
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(200px, 3fr) 0.5fr;
@@ -115,7 +114,7 @@ img {
     background-color: #f4decb;
     text-decoration: none;
     display: inline-block;
-    font-size:large;
+    font-size: large;
     cursor: pointer;
     font-family: 'Josefin Sans', serif;
     min-width: 100px;
@@ -133,7 +132,7 @@ img {
     width: 15vw;
     color: black;
     border: 2px solid #49274a;
-    font-size:large;
+    font-size: large;
 }
 
 .button1 {
@@ -230,37 +229,47 @@ form {
     bottom: 10px;
 }
 
-.footer > a{
+.footer > a {
     color: #f4decb;
 }
 
 h2 {
-    font-size:large;
+    font-size: large;
 }
 
 h3 {
-    font-size:large;
+    font-size: large;
 }
 
 .profil {
-    font-size:large;
+    font-size: large;
 }
 
 .search {
-    font-size:large;
+    font-size: large;
 }
-a{
-    font-size:large;
+
+a {
+    font-size: large;
 }
-#table{
+
+#table {
     border: 2px double #49274a;
     text-align: center;
 
 
 }
-#table > th,td,tr{
+
+#table > th, td, tr {
     border: 1px solid #94618e;
     padding-bottom: 10px;
     padding: 10vm;
     font-size: large;
+
+}
+#table2 {
+    border: 2px double #49274a;
+    text-align: center;
+
+
 }

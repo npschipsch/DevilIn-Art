@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<table>
+
+    <store>
+        <artist>
+            ZeenChin
+        </artist>
+        <tShirt>25$</tShirt>
+        <mug>7$</mug>
+        <wallpaper>23$</wallpaper>
+
+    </store>
+    <store>
+        <artist>
+            PeteMohrbavher
+        </artist>
+        <tShirt>20$</tShirt>
+        <mug>5$</mug>
+        <wallpaper>21$</wallpaper>
+
+    </store>
+    <store>
+        <artist>
+            RHADIS
+        </artist>
+        <tShirt>28$</tShirt>
+        <mug>10$</mug>
+        <wallpaper>25$</wallpaper>
+
+    </store>
+    <store>
+        <artist>
+            ArthurBlue
+        </artist>
+        <tShirt>25$</tShirt>
+        <mug>7$</mug>
+        <wallpaper>23$</wallpaper>
+
+    </store>
+    <store>
+        <artist>
+            arcipello
+        </artist>
+        <tShirt>22$</tShirt>
+        <mug>7$</mug>
+        <wallpaper>26$</wallpaper>
+
+    </store>
+    <store>
+        <artist>
+            TomSawyer
+        </artist>
+        <tShirt>30$</tShirt>
+        <mug>12$</mug>
+        <wallpaper>29$</wallpaper>
+    </store>
+
+
+    <store2>
+        <artist2>
+            EimyTop
+        </artist2>
+        <tShirt2>18$</tShirt2>
+        <mug2>7$</mug2>
+        <wallpaper2>23$</wallpaper2>
+
+    </store2>
+    <store2>
+        <artist2>
+            GordanLenannn
+        </artist2>
+        <tShirt2>20$</tShirt2>
+        <mug2>8$</mug2>
+        <wallpaper2>21$</wallpaper2>
+
+    </store2>
+    <store2>
+        <artist2>
+            RIDIC
+        </artist2>
+        <tShirt2>25$</tShirt2>
+        <mug2>9$</mug2>
+        <wallpaper2>25$</wallpaper2>
+
+    </store2>
+    <store2>
+        <artist2>
+            TheHobbit
+        </artist2>
+        <tShirt2>25$</tShirt2>
+        <mug2>7$</mug2>
+        <wallpaper2>20$</wallpaper2>
+
+    </store2>
+    <store2>
+        <artist2>
+            RobinHood
+        </artist2>
+        <tShirt2>28$</tShirt2>
+        <mug2>10$</mug2>
+        <wallpaper2>29$</wallpaper2>
+
+    </store2>
+</table>
+
+

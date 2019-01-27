@@ -97,13 +97,16 @@ nav ul {
     display: grid;
     grid-template-columns: minmax(170px, 1fr) minmax(200px, 3fr) 0.5fr;
 }
-
+.home{
+    display: flex;
+    justify-content: center;
+}
 .HomeButtons {
     display: grid;
     grid-template-rows: 2fr 1fr;
 
-
 }
+
 
 .container {
     display: flex;
@@ -283,9 +286,8 @@ table > th, td, tr {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav > a {
     float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;

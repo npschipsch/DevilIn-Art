@@ -6,85 +6,82 @@
     <title>Registration</title>
     <link rel="stylesheet" type="text/css" href="../Testgrid.css" title="standart">
     <link rel="stylesheet" type="text/css" href="../Testgrid2.css" title="monochrom">
-
+    <script src="../JS/Script.js"></script>
 </head>
 
 <body>
-<header>
-    <div>
-        <a tabindex="1" class="a bread" href="../index.html">Home</a>
-        <text class="a bread"> >  </text>
-        <a tabindex="2" class="a bread" href="../user/registration.html">Registration</a>
-    </div>
-    <div class="headerGrid">
-        <div><a tabindex="3" href="../index.html">
-            <img src="../pics/LOGOvector.svg" width="80px" height="80px" alt="LOGO"/></a>
-            <img src="../pics/logoTextSVG2.svg" width="150px" height="40px" alt="LOGOTEXT"/>
-        </a>
+<div>
+    <header>
+        <div>
+            <a tabindex="1" class="a bread" href="../index.html">Home</a>
+            <text class="a bread"> ></text>
+            <a tabindex="2" class="a bread" href="../user/registration.html">Registration</a>
         </div>
-        <div class="HomeButtons">
-            <div></div>
-            <div class="buttons"><a tabindex="-1" href="../art/art.html">
-                <button tabindex="4" class="button button1">Art</button>
-            </a>
-                <a tabindex="-1" href="../tuts/tutorials.html">
-                    <button tabindex="5" class="button button2">Tutorials</button>
-                </a>
-                <a tabindex="-1" href="../os/offer&search.html">
-                    <button tabindex="6" class="button button3">Offer & Search</button>
-                </a>
-                <a tabindex="-1" href="../forum.html">
-                    <button tabindex="7" class="button button4">Forum</button>
-                </a>
-                <a tabindex="-1" href="../store.html">
-                    <button tabindex="8" class="button button5">Store</button>
+        <div class="headerGrid">
+            <div><a tabindex="3" href="../index.html">
+                <img src="../pics/LOGOvector.svg" width="80px" height="80px" alt="LOGO"/></a>
+                <img src="../pics/logoTextSVG2.svg" width="150px" height="40px" alt="LOGOTEXT"/>
                 </a>
             </div>
+            <div class="HomeButtons home">
+                <div></div>
+                <div class="topnav" id="myTopnav">
+                    <a href="../index.html" class="active" tabindex="4">Home</a>
+                    <a href="../art/art.html" tabindex="5">Art</a>
+                    <a href="../tuts/tutorials.html" tabindex="6">Tutorials</a>
+                    <a href="../os/offer&search.html" tabindex="7">Offer&Search</a>
+                    <a href="../forum.html" tabindex="8">Forum</a>
+                    <a href="../store.html" tabindex="9">Store</a>
+                    <a href="javascript:void(0);" tabindex="9.5" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
 
+            </div>
+            <div class="buttons"><a tabindex="-1" href="login.html">
+                <button tabindex="9" class="button button6"><strong>Login</strong></button>
+            </a>
+                <a tabindex="-1" href="profile.html">
+                    <button tabindex="10" class="button button7"><strong>Profile</strong></button>
+                </a></div>
         </div>
-        <div class="buttons"><a tabindex="-1" href="login.html">
-            <button tabindex="9" class="button button6"><strong>Login</strong></button>
-        </a>
-            <a tabindex="-1" href="profile.html">
-                <button tabindex="10" class="button button7"><strong>Profile</strong></button>
-            </a></div>
-    </div>
-</header>
+    </header>
 
-<div class="articleArt">
-    <h2>Registration</h2><br><br><br>
-    <div id="login">
-        <h3 class="h3 profil">
-            <form action="">
-                Username: <label>
-                <input tabindex="11" class="input" name="profil" maxlength="12" size="15">
-            </label>
-                <br/>
-                Date of Birth: <label>
-                <input tabindex="12" class="input" name="profil" maxlength="12" size="15">
-            </label>
-                <br/>
-                Place of residence: <label>
-                <input tabindex="13" class="input" name="profil" maxlength="12" size="15">
-            </label>
-                <br/>
-                Email: <label>
-                <input tabindex="14" class="input" name="profil" maxlength="12" size="15">
-            </label>
-                <br/>
-                <input tabindex="15" class="input" type="submit" value="Registration">
-            </form>
-        </h3>
-    </div>
+        <div class="articleArt">
+            <h2>Registration</h2>
+            <div id="login">
+                <h3 class="h3 profil">
+                    <form action="">
+                        Username: <label>
+                        <input tabindex="11" class="input" name="profil" maxlength="12" size="15">
+                    </label>
+                        <br/>
+                        Date of Birth: <label>
+                        <input tabindex="12" class="input" name="profil" maxlength="12" size="15">
+                    </label>
+                        <br/>
+                        Place of residence: <label>
+                        <input tabindex="13" class="input" name="profil" maxlength="12" size="15">
+                    </label>
+                        <br/>
+                        Email: <label>
+                        <input tabindex="14" class="input" name="profil" maxlength="12" size="15">
+                    </label>
+                        <br/>
+                        <input tabindex="15" class="input" type="submit" value="Registration">
+                    </form>
+                </h3>
+            </div>
+        </div>
+
+
+
+    <footer>
+        <div class="footer">
+            <a tabindex="16" href="../contact.html">Contact</a>
+            <a tabindex="17" href="../imprint.html">Imprint</a>
+        </div>
+    </footer>
 </div>
-
-
-<footer>
-    <div class="footer">
-        <a tabindex="16" href="../contact.html">Contact</a>
-        <a tabindex="17" href="../imprint.html">Imprint</a>
-    </div>
-</footer>
-
 </body>
 </html>

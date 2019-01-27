@@ -261,20 +261,77 @@ h3{
     font-size: 2.5vmin;
 }
 #table{
-    border: 2px double #49274a;
+    border: 2px double black;
     text-align: center;
 
 
 }
 #table > th,td,tr{
-    border: 1px solid #94618e;
+    border: 1px solid lightgray;
     padding-bottom: 10px;
     padding: 10vm;
     font-size: large;
 }
 #table2 {
-    border: 2px double #49274a;
+    border: 2px double black;
     text-align: center;
 
 
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:  lightgray;
+    overflow: hidden;
+    border: 2px solid lightgray;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: gray;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 820px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }

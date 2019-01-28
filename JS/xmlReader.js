@@ -40,7 +40,7 @@ function createXMLTable(xml) {
     var x = xmlTable.getElementsByTagName("commission");
     for (i = 0; i < x.length; i++) {
         table += "<tr><td>" +
-            x[i].getElementsByTagName("user")[0].childNodes[0].nodeValue + "</td><td>" +
+            "<span property='name'>" + x[i].getElementsByTagName("user")[0].childNodes[0].nodeValue + "</span></td><td>" +
             x[i].getElementsByTagName("category")[0].childNodes[0].nodeValue + "</td><td>" +
             x[i].getElementsByTagName("material")[0].childNodes[0].nodeValue + "</td><td>" +
             x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue + "</td><td>" +
@@ -62,7 +62,7 @@ function createXMLTable2(xml2) {
     var y = xmlTable.getElementsByTagName("store2");
     for (i = 0; i < x.length; i++) {
         table1 += "<tr><td>" +
-            x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "</td><td>" +
+            "<span property='name'>" + x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "</span></td><td>" +
             x[i].getElementsByTagName("tShirt")[0].childNodes[0].nodeValue + "</td><td>" +
             x[i].getElementsByTagName("mug")[0].childNodes[0].nodeValue + "</td><td>" +
             x[i].getElementsByTagName("wallpaper")[0].childNodes[0].nodeValue + "</td>";
@@ -72,7 +72,7 @@ function createXMLTable2(xml2) {
     document.getElementById("store").innerHTML = table1;
     for (i = 0; i < y.length; i++) {
         table2 += "<tr><td>" +
-            y[i].getElementsByTagName("artist2")[0].childNodes[0].nodeValue + "</td><td>" +
+            "<span property='name'>" + y[i].getElementsByTagName("artist2")[0].childNodes[0].nodeValue + "</span></td><td>" +
             y[i].getElementsByTagName("tShirt2")[0].childNodes[0].nodeValue + "</td><td>" +
             y[i].getElementsByTagName("mug2")[0].childNodes[0].nodeValue + "</td><td>" +
             y[i].getElementsByTagName("wallpaper2")[0].childNodes[0].nodeValue + "</td>";

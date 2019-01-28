@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../Testgrid2.css" title="monochrom">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../Script.js"></script>
+    <script src="../JS/xmlReader.js"></script>
     <meta name="DC.format"        scheme="DCTERMS.IMT"  content="art/html" />
     <meta name="DC.type"          scheme = "DCMIType" content="Art" />
     <meta name="DC.title"         content="DevelIn Art" />
@@ -18,7 +19,7 @@
     <meta name="DCTERMS.rightsHolder"   content="DevelIn Arts Cooperation" />
     <meta name="DCTERMS.modified" content="2019-01-28" />
 </head>
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div>
@@ -74,13 +75,13 @@
             <h2>Offer & Search</h2>
 
             <h3>New commissions</h3>
-            <div style="display: grid;">
-                <table id="table"> <caption>New commissions</caption> </table>
+            <div typeof="Table" style="display: grid;">
+                <table id="table"> <caption><span property="about">New commissions</span></caption> </table>
             </div>
 
             <h3>New requests</h3>
-            <div style="display: grid;">
-                <table id="table2"><caption>New requests</caption> </table>
+            <div typeof="Table" style="display: grid;">
+                <table id="table2"><caption><span property="about">New requests</span></caption> </table>
             </div>
 
         </div>

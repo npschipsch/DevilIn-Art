@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="Testgrid.css" title="standart">
     <link rel="stylesheet" type="text/css" href="Testgrid2.css" title="monochrom">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./JS/Script.js"></script>
     <script src="./Script.js"></script>
     <meta name="DC.format"        scheme="DCTERMS.IMT"  content="art/html" />
     <meta name="DC.type"          scheme = "DCMIType" content="Art" />
@@ -35,6 +36,7 @@
 
         </div>
         <div class="HomeButtons home">
+            <div></div>
             <div class="topnav" id="myTopnav">
                 <a href="./index.html" class="active" tabindex="2">Home</a>
                 <a href="./art/art.html" tabindex="3">Art</a>
@@ -63,16 +65,18 @@
     </nav>
 
     <article class="articleArt">
-        <div id="contact">
+        <div typeof="ContactPage" id="contact"
+             style="margin: 50px; position: fixed; left: 50%; top: 50%;">
             <h3 class="h3 profil">
-                <form action="">
-                    Contact:<br><br>
-                    <p>eMail: test@test.de</p>
-                    <p>Phone: 0176 123456</p>
-                    <br>DevelIn Arts
-                    <br>Backstraße 3
-                    <br>03046 Cottbus
-                </form>
+
+                Contact:
+                <div property="copyrightHolder">
+                    <span property="email">eMail: test@test.de</span>
+                    <br><span property="telephone">Phone: 0176 123456</span>
+                    <br><span property="name">DevelIn Arts</span>
+                    <br><span property="address">Backstraße 3
+                    <br>03046 Cottbus</span>
+                </div>
             </h3>
         </div>
     </article>

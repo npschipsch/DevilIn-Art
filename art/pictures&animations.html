@@ -19,7 +19,7 @@
     <meta name="DCTERMS.modified" content="2019-01-28" />
 </head>
 
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div>
@@ -81,8 +81,8 @@
             </div>
         </nav>
 
-        <div class="articleArt">
-            <h2>Pictures/Animations</h2>
+        <div typeof="Article" class="articleArt">
+            <span property="about"><h2>Pictures/Animations</h2></span>
 
             <div id="search">
                 Search: <label>
@@ -105,36 +105,36 @@
             save for work
             <br><br>
 
-            <div>
+            <div typeof="ImageObject">
                 <div>
-                    <a href="#" title="picA , UserA" alt=""><img src="../pics/pica.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picB , UserA" alt=""><img src="../pics/picb.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picC , UserA" alt=""><img src="../pics/picc.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picD , UserA" alt=""><img src="../pics/picd.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picE , UserA" alt=""><img src="../pics/pice.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
+                   <span property="image"> <img src="../pics/pica.jpg" style="width:18%"
+                                                alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/picb.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
+                    <span property="image"><img src="../pics/picc.jpg" style="width:18%"
+                                                alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/picd.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/pice.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
                 </div>
                 <div>
-                    <a href="#" title="picA , UserB" alt=""><img src="../pics/pic1.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picB , UserB" alt=""><img src="../pics/pic2.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picC , UserB" alt=""><img src="../pics/pic3.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picD , UserB" alt=""><img src="../pics/pic4.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
-                    <a href="#" title="picE , UserB" alt=""><img src="../pics/pic5.jpg" style="width:18%"
-                                                                 alt="userUpload"></a>
+                    <span property="image"><img src="../pics/pic1.jpg" style="width:18%"
+                                                alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/pic2.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/pic3.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/pic4.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
+                    <span property="image"> <img src="../pics/pic5.jpg" style="width:18%"
+                                                 alt="userUpload"></span>
                 </div>
             </div>
 
             <div class="pages">
                 <a href="#">
-                    <button tabindex="19" class="input">1</button>
+                    <button tabindex="19" class="input"><span property="pageStart">1</span></button>
                     <button tabindex="20" class="input">2</button>
                     <button tabindex="21" class="input">3</button>
                     <button tabindex="22" class="input">4</button>

@@ -105,6 +105,11 @@ nav ul {
     grid-template-columns: minmax(100px, 1fr) minmax(200px, 3fr) 0.5fr;
 }
 
+.home{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
 .HomeButtons {
     display: grid;
     grid-template-rows: 1fr 1fr;

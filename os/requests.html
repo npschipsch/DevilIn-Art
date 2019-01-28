@@ -8,63 +8,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../Script.js"></script>
     <script src="../JS/xmlReader.js"></script>
-    <meta name="DC.format"        scheme="DCTERMS.IMT"  content="art/html" />
-    <meta name="DC.type"          scheme = "DCMIType" content="Art" />
-    <meta name="DC.title"         content="DevelIn Art" />
-    <meta name="DC.description"   content="Art for all" />
-    <meta name="DC.publisher"     content="Nico Pschipsch, Debora Buckenhauer" />
-    <meta name="DC.subject"       content="DevelIn Arts, Art" />
-    <meta name="DC.creator"       content="Eleonora Kostova, Manuel Bohg" />
-    <meta name="DC.language"      scheme = "ISO639-2" content="eng"/>
-    <meta name="DCTERMS.rightsHolder"   content="DevelIn Arts Cooperation" />
-    <meta name="DCTERMS.modified" content="2019-01-28" />
+    <meta name="DC.format" scheme="DCTERMS.IMT" content="art/html"/>
+    <meta name="DC.type" scheme="DCMIType" content="Art"/>
+    <meta name="DC.title" content="DevelIn Art"/>
+    <meta name="DC.description" content="Art for all"/>
+    <meta name="DC.publisher" content="Nico Pschipsch, Debora Buckenhauer"/>
+    <meta name="DC.subject" content="DevelIn Arts, Art"/>
+    <meta name="DC.creator" content="Eleonora Kostova, Manuel Bohg"/>
+    <meta name="DC.language" scheme="ISO639-2" content="eng"/>
+    <meta name="DCTERMS.rightsHolder" content="DevelIn Arts Cooperation"/>
+    <meta name="DCTERMS.modified" content="2019-01-28"/>
 </head>
 <body vocab="http://schema.org/">
 <div>
     <header>
         <div>
-            <a class="a bread" href="../index.html">Home</a>
+            <a tabindex="1" accesskey="home" class="a bread" href="../index.html">Home</a>
             <text class="a bread"> ></text>
-            <a class="a bread" href="../os/offer&search.html">Offer&Search</a>
+            <a tabindex="1.5" accesskey="os" class="a bread" href="../os/offer&search.html">Offer&Search</a>
             <text class="a bread"> ></text>
-            <a class="a bread" href="../os/requests.html">Requests</a>
+            <a tabindex="2" accesskey="requests" class="a bread" href="../os/requests.html">Requests</a>
         </div>
         <div class="headerGrid">
-            <div><a href="../index.html">
+            <div><a accesskey="home" href="../index.html">
                 <img src="../pics/LOGOvector.svg" style="height: 80px; width: 80px;" alt="LOGO"/></a>
                 <img src="../pics/logoTextSVG2.svg" style="height: 40px; width: 150px;" id="textLOGO" alt="LOGOTEXT"/>
             </div>
             <div class="HomeButtons home">
                 <div></div>
                 <div class="topnav" id="myTopnav">
-                    <a href="../index.html" class="active" tabindex="4">Home</a>
-                    <a href="../art/art.html" tabindex="5">Art</a>
-                    <a href="../tuts/tutorials.html" tabindex="6">Tutorials</a>
-                    <a href="../os/offer&search.html" tabindex="7">Offer&Search</a>
-                    <a href="../forum.html" tabindex="8">Forum</a>
-                    <a href="../store.html" tabindex="9">Store</a>
+                    <a href="../index.html" class="active" tabindex="4" accesskey="home">Home</a>
+                    <a href="../art/art.html" tabindex="5" accesskey="art">Art</a>
+                    <a href="../tuts/tutorials.html" tabindex="6" accesskey="tuts">Tutorials</a>
+                    <a href="../os/offer&search.html" tabindex="7" accesskey="os">Offer&Search</a>
+                    <a href="../forum.html" tabindex="8" accesskey="forum">Forum</a>
+                    <a href="../store.html" tabindex="9" accesskey="store">Store</a>
                     <a href="javascript:void(0);" tabindex="9.5" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
-
             </div>
-            <div class="buttons"><a href="../user/login.html">
-                <button class="button button6"><strong>Login</strong></button>
+
+            <div class="buttons"><a href="../user/login.html" accesskey="login">
+                <button tabindex="9" class="button button6"><strong>Login</strong></button>
             </a>
-                <a href="../user/profile.html">
-                    <button class="button button7"><strong>Profile</strong></button>
-                </a></div>
+                <a href="../user/profile.html" accesskey="profile">
+                    <button tabindex="10" class="button button7"><strong>Profile</strong></button>
+                </a>
+            </div>
         </div>
     </header>
     <main>
         <nav class="navArt">
             <h2>Offer & Search</h2>
             <ul>
-                <li><a href="commissions.html">
+                <li><a tabindex="11" accesskey="commissions" href="commissions.html">
                     <button class="button side">Commissions</button>
                 </a></li>
-                <li><a href="./requests.html">
+                <li><a tabindex="12" href="requests.html" accesskey="requests">
                     <button class="button side">Requests</button>
                 </a></li>
             </ul>
@@ -80,7 +81,7 @@
                     <h3>
                         Category:
                         <label>
-                            <select name="reise" size="1"
+                            <select tabindex="13" name="reise" size="1"
                                     class="input">
                                 <option>Drawing</option>
                                 <option>Animation</option>
@@ -90,7 +91,7 @@
                         </label>
                         Materials:
                         <label>
-                            <select class="input" name="reise"
+                            <select tabindex="14" class="input" name="reise"
                                     size="1">
                                 <option>-</option>
                                 <option>Coloured Pencils</option>
@@ -104,12 +105,12 @@
                 </div>
                 <div>
 
-                    <h3>Deadline : <label><input
+                    <h3>Deadline : <label><input tabindex="15"
                             class="input"
                             name="logIn" maxlength="12" size="15"></label>
                         Price:
                         <label>
-                            <label>$ <input
+                            <label>$ <input tabindex="16"
                                     class="input"
                                     name="logIn" maxlength="12" size="15"> to $
                                 <input style="color:#49274a;text-align: center; width: 30px;height: 30px; font: 18px 'Josefin Sans';"
@@ -120,7 +121,7 @@
                 </div>
                 <div>
                     <a href="../index.html">
-                        <div><input class="input" type="submit"
+                        <div><input tabindex="17" class="input" type="submit"
                                     value="Find"></div>
                     </a>
                 </div>
@@ -131,7 +132,7 @@
                     <h3>
                         Category:
                         <label>
-                            <select name="reise" size="1"
+                            <select tabindex="18" name="reise" size="1"
                                     class="input">
                                 <option>Drawing</option>
                                 <option>Animation</option>
@@ -141,7 +142,7 @@
                         </label>
                         Materials:
                         <label>
-                            <select class="input" name="reise"
+                            <select tabindex="19" class="input" name="reise"
                                     size="1">
                                 <option>-</option>
                                 <option>Coloured Pencils</option>
@@ -155,31 +156,33 @@
                 </div>
                 <div>
 
-                    <h3>Deadline : <label><input
+                    <h3>Deadline : <label><input tabindex="20"
                             class="input"
                             name="logIn" maxlength="12" size="15"></label>
                         Price:
-                        <label>$ <input
+                        <label>$ <input tabindex="21"
                                 class="input"
                                 name="logIn" maxlength="12" size="15">
                         </label>
                     </h3>
                     <h3>
                         More information: <label>
-                        <textarea class="input" rows="6" cols="50"></textarea>
+                        <textarea tabindex="23" class="input" rows="6" cols="50"></textarea>
                     </label>
                     </h3>
                 </div>
                 <div>
                     <a href="../index.html">
-                        <div><input class="input" type="submit"
+                        <div><input tabindex="24" class="input" type="submit"
                                     value="Offer"></div>
                     </a>
                 </div>
                 <h2>New requests:</h2>
 
                 <div typeof="Table" style="display: grid;">
-                    <table id="table"><caption><span property="about">New requests:</span></caption></table>
+                    <table id="table">
+                        <caption><span property="about">New requests:</span></caption>
+                    </table>
                 </div>
 
             </div>
@@ -187,8 +190,8 @@
     </main>
     <footer>
         <div class="footer">
-            <a href="../contact.html">Contact</a>
-            <a href="../imprint.html">Imprint</a>
+            <a tabindex="25" accesskey="contact" href="../contact.html">Contact</a>
+            <a tabindex="26" accesskey="imprint" href="../imprint.html">Imprint</a>
         </div>
     </footer>
 </div>

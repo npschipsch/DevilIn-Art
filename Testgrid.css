@@ -113,7 +113,7 @@ nav ul {
 }
 .HomeButtons {
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 135px;
     grid-template-rows: 1fr 1fr;
 
 }
@@ -306,7 +306,7 @@ table > th, td, tr {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .topnav a:not(:first-child) {
         display: none;
     }

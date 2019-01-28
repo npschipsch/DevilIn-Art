@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./JS/Script.js"></script>
 </head>
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div class="headerGrid">
@@ -41,89 +41,89 @@
     </header>
 
 
-    <div class="articleArt2">
+    <div typeof="Article" class="articleArt2" style="text-align: center">
         <div style="display: table; width: 100%;">
-            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
+            <figure typeof="ImageObject" style="display: table-cell; padding: 0 4px; text-align: center;">
 
 
-                <img src="./pics/DevLogo.png" alt="Selfhtml" style="height: 250px; width: 250px;"/>
-                <img src="./pics/devilInArt.png" alt="Selfhtml" style="height: 90px; width: 400px;"/><br>
+                <span property="image"><img src="./pics/DevLogo.png" alt="Selfhtml"
+                                            style="height: 250px; width: 250px;"/></span>
+                <span property="image"><img src="./pics/devilInArt.png" alt="Selfhtml"
+                                            style="height: 90px; width: 400px;"/></span> <br>
+
             </figure>
         </div>
-        <form action="">
-            <h3 class="h3 profil">new uploads:</h3>
-        </form>
-        <form action="">
-            <h2>Pictures/Animations</h2>
-        </form>
 
-        <div>
+        <h3 class="h3 profil" >new uploads:</h3>
+
+        <span property="about"><h2>Pictures/Animations</h2></span>
+
+
+        <div typeof="ImageObject">
             <div tabindex="-1" style="text-align: center;">
-                <img src="./pics/pica.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/picb.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/picc.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/picd.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/pice.jpg" style="width:18%"
-                     alt="userUpload">
+                <span property="image"><img src="./pics/pica.jpg" style="width:18%"
+                                            alt="userUpload"></span>
+                <span property="image"> <img src="./pics/picb.jpg" style="width:18%"
+                                             alt="userUpload"></span>
+                <span property="image"><img src="./pics/picc.jpg" style="width:18%"
+                                            alt="userUpload"></span>
+                <span property="image"> <img src="./pics/picd.jpg" style="width:18%"
+                                             alt="userUpload"></span>
+                <span property="image"> <img src="./pics/pice.jpg" style="width:18%"
+                                             alt="userUpload"></span>
             </div>
         </div>
         <br>
 
 
-        <form action="">
-            <h2>Handcrafting</h2>
-        </form>
-        <div>
+        <span property="about"><h2>Handcrafting</h2></span>
+        <div typeof="ImageObject">
             <div tabindex="-1" style="text-align: center;">
-                <img src="./pics/hande.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/handb.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/handc.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/handd.jpg" style="width:18%"
-                     alt="userUpload">
-                <img src="./pics/hand3.jpg" style="width:18%"
-                     alt="userUpload">
+                <span property="image"><img src="./pics/hande.jpg" style="width:18%"
+                                            alt="userUpload"></span>
+                <span property="image"> <img src="./pics/handb.jpg" style="width:18%"
+                                             alt="userUpload"></span>
+                <span property="image"> <img src="./pics/handc.jpg" style="width:18%"
+                                             alt="userUpload"></span>
+                <span property="image"> <img src="./pics/handd.jpg" style="width:18%"
+                                             alt="userUpload"></span>
+                <span property="image"><img src="./pics/hand3.jpg" style="width:18%"
+                                            alt="userUpload"></span>
             </div>
         </div>
         <br>
 
-        <form action="">
-            <h2>Music</h2>
-        </form>
 
-        <div tabindex="-1">
+        <span property="about"> <h2>Music</h2></span>
+
+
+        <div typeof="MusicComposition" tabindex="-1">
             <div tabindex="-1" style="text-align: center;">
                 <a tabindex="-1" href="#" title="peace and love, Karlo Wustermann" alt="userUpload">
-                    <audio tabindex="9" class="player" controls>
+                    <span property="audio"><audio tabindex="9" class="player" controls>
                         <source src="./music/Sleep%20Away.ogg" type="audio/ogg">
                         <source src="./music/Sleep%20Away.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                    </audio></span>
                 </a>
                 <a tabindex="-1" href="#" title="Kalimba, Karl Mustermann" alt="userUpload">
-                    <audio tabindex="10" controls>
+                    <span property="audio"><audio tabindex="10" controls>
                         <source src="./music/Kalimba.ogg" type="audio/ogg">
                         <source src="./music/Kalimba.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                    </audio></span>
                 </a>
                 <a tabindex="-1" href="#" title="Für Elise , Beethoven" alt="userUpload">
-                    <audio tabindex="11" controls>
+                    <span property="audio"><audio tabindex="11" controls>
                         <source src="./music/Fur%20Elise%20-%20Beethoven%20(YouTube%20Royalty-free%20Music%20Download).ogg"
                                 type="audio/ogg">
                         <source src="#" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                    </audio></span>
                 </a>
             </div>
         </div>
-        <br><br>
+
     </div>
 
 

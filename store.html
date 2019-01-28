@@ -9,7 +9,7 @@
     <script src="./JS/xmlReader.js"></script>
     <script src="./JS/Script.js"></script>
 </head>
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div>
@@ -71,13 +71,13 @@
             <h2>Store</h2>
 
             <h3>Top Sellers</h3>
-            <div style="display: grid;">
-                <table id="store"><caption>Top Sellers</caption></table>
+            <div typeof="Table" style="display: grid;">
+                <table id="store"><caption> <span property="about">Top Sellers</span> </caption></table>
             </div>
                 <h3>Others</h3>
 
-            <div style="display: grid;">
-                <table id="store2"><caption>Others</caption></table>
+            <div  typeof="Table" style="display: grid;">
+                <table id="store2"><caption> <span property="about">Others</span></caption></table>
             </div>
 
         </div>

@@ -6,14 +6,14 @@
     <link rel="stylesheet" type="text/css" href="Testgrid.css" title="standart">
     <link rel="stylesheet" type="text/css" href="Testgrid2.css" title="monochrom">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="./JS/Script.js"></script>
+    <script src="./JS/Script.js"></script>
 </head>
 
-<body>
+<body vocab="http://schema.org/">
 <header>
     <div>
         <a tabindex="1" class="a bread" href="./index.html">Home</a>
-        <text class="a bread"> >  </text>
+        <text class="a bread"> ></text>
         <a tabindex="2" class="a bread" href="./contact.html">Contact</a>
     </div>
     <div class="headerGrid">
@@ -31,7 +31,7 @@
                 <a href="./os/offer&search.html" tabindex="5">Offer&Search</a>
                 <a href="./forum.html" tabindex="6">Forum</a>
                 <a href="store.html" tabindex="7">Store</a>
-                <a href="javascript:void(0);" class="icon" tabindex="8"  onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" tabindex="8" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -52,16 +52,18 @@
     </nav>
 
     <article class="articleArt">
-        <div id="contact">
+        <div typeof="ContactPage" id="contact"
+             style="margin: 50px; position: fixed; left: 50%; top: 50%;">
             <h3 class="h3 profil">
-                <form action="">
-                    Contact:<br><br>
-                    <p>eMail: test@test.de</p>
-                    <p>Phone: 0176 123456</p>
-                    <br>DevelIn Arts
-                    <br>Backstraße 3
-                    <br>03046 Cottbus
-                </form>
+
+                Contact:
+                <div property="copyrightHolder">
+                    <span property="email">eMail: test@test.de</span>
+                    <br><span property="telephone">Phone: 0176 123456</span>
+                    <br><span property="name">DevelIn Arts</span>
+                    <br><span property="address">Backstraße 3
+                    <br>03046 Cottbus</span>
+                </div>
             </h3>
         </div>
     </article>

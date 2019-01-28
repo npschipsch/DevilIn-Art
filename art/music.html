@@ -9,7 +9,7 @@
     <script src="../JS/Script.js"></script>
 </head>
 
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div>
@@ -70,85 +70,85 @@
             </div>
         </nav>
 
-        <div class="articleArt left">
+        <div typeof="MusicComposition" class="articleArt left">
             <div>
-                <form action="">
-                    <h2>Music</h2>
 
-                    <div id="search">
-                        Search: <label>
-                        <input tabindex="15" class="input" name="logIn" maxlength="12" size="15">
-                    </label>
-                        Sort by:
-                        <label>
-                            <select tabindex="16" class="input" name="reise" size="1">
-                                <option>date</option>
-                                <option>name</option>
-                                <option>author</option>
-                            </select>
-                        </label>
-                        <input tabindex="17" class="input" type="submit" value="Ok">
-                    </div>
-                    <br>
+               <span property="about"><h2>Music</h2></span>
+
+                <div id="search">
+                    Search: <label>
+                    <input tabindex="15" class="input" name="logIn" maxlength="12" size="15">
+                </label>
+                    Sort by:
                     <label>
-                        <input tabindex="18" type="checkbox" checked="checked">
+                        <select tabindex="16" class="input" name="reise" size="1">
+                            <option>date</option>
+                            <option>name</option>
+                            <option>author</option>
+                        </select>
                     </label>
-                    save for work
-                </form>
+                    <input tabindex="17" class="input" type="submit" value="Ok">
+                </div>
+                <br>
+                <label>
+                    <input tabindex="18" type="checkbox" checked="checked">
+                </label>
+                save for work
+
             </div>
             <br>
             <div>
                 <br>
-                <h3> Peace and Love , Karlo Wustermann</h3>
+                <h3><span property="name">Peace and Love</span> , <span property="creator">Karlo Wustermann</span> </h3>
                 <h3>
-                    <audio tabindex="19" class="player" controls alt="userUpload">
+                   <span property="audio"> <audio tabindex="19" class="player" controls alt="userUpload">
                         <source src="../music/Sleep%20Away.ogg" type="audio/ogg">
                         <source src="../music/Sleep%20Away.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                   </audio></span>
                     A song about peace, love and harmony.
                 </h3>
             </div>
             <div>
                 <br>
-                <h3> Kalimba , Karl Mustermann</h3>
+                <h3><span property="name"> Kalimba </span>, <span property="creator">Karl Mustermann</span></h3>
                 <h3>
-                    <audio tabindex="20" controls alt="userUpload">
+                    <span property="audio"><audio tabindex="20" controls alt="userUpload">
                         <source src="../music/Kalimba.ogg" type="audio/ogg">
                         <source src="../music/Kalimba.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                    </audio></span>
                     ...
                 </h3>
             </div>
             <div>
                 <br>
-                <h3> Für Elise , Beethoven</h3>
+                <h3><span property="name"> Für Elise</span> , <span property="creator">Beethoven</span></h3>
                 <h3>
-                    <audio tabindex="21" controls alt="userUpload">
+                    <span property="audio"><audio tabindex="21" controls alt="userUpload">
                         <source src="../music/Fur%20Elise%20-%20Beethoven%20(YouTube%20Royalty-free%20Music%20Download).ogg"
                                 type="audio/ogg">
                         <source src="#" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                    </audio></span>
                     A famous song from Beethoven
                 </h3>
 
             </div>
             <div>
                 <br>
-                <h3> Chopstick Waltz , Wristcutters</h3>
+                <h3><span property="name"> Chopstick Waltz</span> , <span property="creator">Wristcutters</span></h3>
                 <h3>
-                    <audio tabindex="22" controls alt="userUpload">
+                   <span property="audio"> <audio tabindex="22" controls alt="userUpload">
                         <source src="../music/Chopstick%20Waltz%20-%20Wristcutters%20Edition.ogg" type="audio/ogg">
                         <source src="#" type="audio/mpeg">
                         Your browser does not support the audio element.
-                    </audio>
+                   </audio></span>
                     Listen...
                 </h3>
                 <div class="pages">
                     <a href="#">
-                        <button tabindex="23" class="input">1</button>
+                        <button tabindex="23" class="input"><span property="pageStart">1</span> </button>
                         <button tabindex="24" class="input">2</button>
                         <button tabindex="25" class="input">3</button>
                         <button tabindex="26" class="input">4</button>

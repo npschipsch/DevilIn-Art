@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 #textLOGO{
     animation: blinker 2s linear infinite;
 }
@@ -262,8 +261,9 @@ a {
 
 table > th, td, tr {
     border: 1px solid #94618e;
-    padding-bottom: 20px;
     padding: 10vm;
+    padding-bottom: 20px;
+
     font-size: large;
 
 }

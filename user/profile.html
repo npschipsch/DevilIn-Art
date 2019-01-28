@@ -9,12 +9,12 @@
     <script src="../JS/Script.js"></script>
 </head>
 
-<body>
+<body vocab="http://schema.org/">
 
 <header>
     <div>
         <a tabindex="1" class="a bread" href="../index.html">Home</a>
-        <text class="a bread"> >  </text>
+        <text class="a bread"> ></text>
         <a tabindex="2" class="a bread" href="../user/profile.html">Profile</a>
     </div>
     <div class="headerGrid">
@@ -65,20 +65,24 @@
     </nav>
 
     <div class="container">
-        <div class="articleArt">
-            <h3 style="text-align: left" class="h3 profil">
-                avatar: <br><br>
-                <img src="../pics/avatar.jpg" alt="avatar" style="height: 80px; width: 80px;"/> <br>
+        <div typeof="Person" class="articleArt">
 
-                <br> username: User32
+            <h3 style="text-align: left" class="h3 profil">
+                avatar:
+                <span property="image"><img src="../pics/avatar.jpg" alt="avatar"
+                                            style="height: 80px; width: 80px;"/></span>
+
+
+                <br><span property="name"> username: User32</span>
                 <br> age: 23
-                <br> email: test@test.de
+                <br><span property="email">email: test@test.de</span>
                 <br> date of registration: 12.12.2018
                 <br> place of residence: Germany, Hamburg
                 <br> interests: music
                 <br> accepted commissions: Nav
                 <br> uploaded content: None
             </h3>
+
             <input tabindex="13" class="input" type="submit" value="edit profile">
 
 

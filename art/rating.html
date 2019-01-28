@@ -9,7 +9,7 @@
     <script src="../JS/Script.js"></script>
 </head>
 
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div>
@@ -73,8 +73,8 @@
         </div>
 
         <div class="container">
-            <div class="articleArt">
-                <h2>Rating</h2>
+            <div typeof="Article" class="articleArt">
+                <span property="about"><h2>Rating</h2></span>
                 <div style="display: grid;" id="rate">
 
                         <h2>Choose your Category:</h2><br><br>
@@ -93,8 +93,8 @@
                             <figure style="display: table-cell; padding: 0 4px; text-align: center;">
                                 <input tabindex="17" class="input" type="submit" value="<">
                             </figure>
-                            <figure style="display: table-cell; padding: 0 4px; text-align: center;">
-                                <img src="../pics/picb.jpg" alt="userUpload" style="height: 75%; width: 100%;"/>
+                            <figure typeof="ImageObject" style="display: table-cell; padding: 0 4px; text-align: center;">
+                                <span property="image"><img src="../pics/picb.jpg" alt="userUpload" style="height: 75%; width: 100%;"/></span>
                                 <figcaption>PicB, UserA</figcaption>
                             </figure>
                             <figure style="display: table-cell; padding: 0 4px; text-align: center;">

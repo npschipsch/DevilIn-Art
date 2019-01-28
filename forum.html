@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./JS/Script.js"></script>
 </head>
-<body>
+<body vocab="http://schema.org/">
 <div>
     <header>
         <div>
@@ -70,28 +70,29 @@
             <div class="articleArt">
 
 
-                <div class="forumLines">
-                    <h2>DevelIn Art</h2>
-                    <div><a tabindex="13" style="color: #49274a" href="#">General basic discussion</a>
+                <div typeof="DiscussionForumPosting" class="forumLines">
+                    <span property="name"><h2>DevelIn Art</h2></span>
+                    <div><a tabindex="13" style="color: #49274a" href="#">
+                        <span property="headline">General basic discussion</span></a>
                         <h3>The most asked questions</h3></div>
-                    <div><a tabindex="14" style="color: #49274a" href="#">Welcome forum </a>
+                    <div><a tabindex="14" style="color: #49274a" href="#"><span property="headline">Welcome forum</span> </a>
                         <h3>Let's offer a warm welcome to the newest develians.</h3></div>
-                    <h2>Community</h2>
-                    <div><a tabindex="15" style="color: #49274a" href="#">DevelIn Meetings</a>
+                    <span property="about"><h2>Community</h2></span>
+                    <div><a tabindex="15" style="color: #49274a" href="#"><span property="headline">DevelIn Meetings</span></a>
                         <h3>The Official forum for all DevelIn meetings, from planning to partying!</h3></div>
-                    <div><a tabindex="16" style="color: #49274a" href="#">Politics</a>
+                    <div><a tabindex="16" style="color: #49274a" href="#"> <span property="headline">Politics </span></a>
                         <h3>Politics and art mix more than you can imagine. Discuss all political rights here!</h3>
                     </div>
-                    <div><a tabindex="17" style="color: #49274a" href="#">Projects</a>
+                    <div><a tabindex="17" style="color: #49274a" href="#"> <span property="headline">Projects</span></a>
                         <h3>Post about your community project, art trade, or personal contest here!</h3></div>
-                    <h2>Entertainment</h2>
-                    <div><a tabindex="18" style="color: #49274a" href="#">Books & Comics</a>
+                    <span property="about"><h2>Entertainment</h2></span>
+                    <div><a tabindex="18" style="color: #49274a" href="#"> <span property="headline">Books & Comics</span></a>
                         <h3>For posting book reviews and discussing literature.</h3></div>
 
                 </div>
-                <div class="pages">
+                <div typeof="Article" class="pages">
                     <a tabindex="-1" href="#">
-                        <button tabindex="19" class="input">1</button>
+                        <button tabindex="19" class="input"><span property="pageStart">1</span> </button>
                         <button tabindex="20" class="input">2</button>
                         <button tabindex="21" class="input">3</button>
                         <button tabindex="22" class="input">4</button>

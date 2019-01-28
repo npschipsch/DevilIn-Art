@@ -7,23 +7,23 @@
     <link rel="stylesheet" type="text/css" href="Testgrid2.css" title="monochrom">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./Script.js"></script>
-    <meta name="DC.format"        scheme="DCTERMS.IMT"  content="art/html" />
-    <meta name="DC.type"          scheme = "DCMIType" content="Art" />
-    <meta name="DC.title"         content="DevelIn Art" />
-    <meta name="DC.description"   content="Art for all" />
-    <meta name="DC.publisher"     content="Nico Pschipsch, Debora Buckenhauer" />
-    <meta name="DC.subject"       content="DevelIn Arts, Art" />
-    <meta name="DC.creator"       content="Eleonora Kostova, Manuel Bohg" />
-    <meta name="DC.language"      scheme = "ISO639-2" content="eng"/>
-    <meta name="DCTERMS.rightsHolder"   content="DevelIn Arts Cooperation" />
-    <meta name="DCTERMS.modified" content="2019-01-28" />
+    <meta name="DC.format" scheme="DCTERMS.IMT" content="art/html"/>
+    <meta name="DC.type" scheme="DCMIType" content="Art"/>
+    <meta name="DC.title" content="DevelIn Art"/>
+    <meta name="DC.description" content="Art for all"/>
+    <meta name="DC.publisher" content="Nico Pschipsch, Debora Buckenhauer"/>
+    <meta name="DC.subject" content="DevelIn Arts, Art"/>
+    <meta name="DC.creator" content="Eleonora Kostova, Manuel Bohg"/>
+    <meta name="DC.language" scheme="ISO639-2" content="eng"/>
+    <meta name="DCTERMS.rightsHolder" content="DevelIn Arts Cooperation"/>
+    <meta name="DCTERMS.modified" content="2019-01-28"/>
 </head>
 
-<body>
+<body vocab="http://schema.org/">
 <header>
     <div>
         <a tabindex="1" class="a bread" href="./index.html">Home</a>
-        <text class="a bread"> >  </text>
+        <text class="a bread"> ></text>
         <a tabindex="2" class="a bread" href="./imprint.html">Imprint</a>
     </div>
 
@@ -62,17 +62,17 @@
         <div class="textLogo"><img src="./pics/devilInArt.png" alt="Logo" style="height: 50px; width: 150px;"/></div>
     </nav>
 
-    <article class="articleArt">
-        <br><br><br><br><br><br>
-        <div id="contact">
+    <article typeof="Article" class="articleArt">
+
+        <div typeof="Person" id="contact">
             <h3 class="h3 profil">
-                <form action="">
-                    Imprint:<br><br>
-                    <p>Website is created by</p>
-                    <h1>Eleonora Kostova </h1>
-                    &
-                    <h1>Manuel Bohg</h1>
-                </form>
+
+                Imprint:<br><br>
+                <p>Website is created by</p>
+                <h1><span property="name">Eleonora Kostova </span></h1>
+                &
+                <h1><span property="name">Manuel Bohg</span></h1>
+
             </h3>
         </div>
     </article>

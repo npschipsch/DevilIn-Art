@@ -107,7 +107,7 @@ nav ul {
 
 .HomeButtons {
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
 }
 .container {
@@ -146,35 +146,15 @@ img{
     font-size: 3vmin;
 }
 
-.button1 {
-    padding: 10px 50px;
-    margin-left: 20px;
-}
-
-.button2 {
-    padding: 10px 50px;
-}
-
-.button3 {
-    padding: 10px 50px;
-}
-
-.button4 {
-    padding: 10px 50px;
-}
-
-.button5 {
-    padding: 10px 50px;
-}
 
 .button6 {
 
-    color: lightgray;
+    color: black;
     background-color: darkgrey;
 }
 
 .button7 {
-    color: white;
+    color: black;
     background-color: darkgrey;
 }
 
@@ -229,7 +209,7 @@ form {
 .forumLines > div {
     border: 2px solid darkgrey;
     border-radius: 5px;
-    background-color: #F2E0F7;
+    background-color: grey;
     padding: 1em;
     color: lightgray;
 }
@@ -278,6 +258,7 @@ h3{
 
 }
 
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:  lightgray;
@@ -289,7 +270,7 @@ h3{
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
